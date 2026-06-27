@@ -23,8 +23,19 @@ This is not a list of random bookmark dumps or hype-driven links. Every entry is
 
 ---
 
+## Premium Picks
+
+Handpicked tools and skills that solve a real workflow problem and are worth trying early.
+
+| Pick | Category | Why it matters | Card |
+|---|---|---|---|
+| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [Open card](./skills/token-efficiency/caveman.md) |
+
+---
+
 ## Table of Contents
 
+- [Premium Picks](#premium-picks)
 - [Prompt Library](#prompt-library)
 - [Skills](#skills)
 - [Tool Stack](#tool-stack)
