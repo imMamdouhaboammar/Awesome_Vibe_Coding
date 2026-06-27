@@ -397,6 +397,11 @@ crg-daemon stop
 
 ## Pairing with other tools
 
+### Code Review Graph + Open Code Review
+
+Use Code Review Graph to understand blast radius and affected flows.
+Use Open Code Review to generate precise, line-level AI comments on the code changes.
+
 ### Code Review Graph + Serena
 
 Use Code Review Graph to understand blast radius and review risk.

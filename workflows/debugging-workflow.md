@@ -5,7 +5,7 @@ Systematic tracking, verification, and resolution of codebase bugs and errors.
 - **Goal**: Identify root-cause of application issues and fix them without introducing regressions.
 - **When to Use**: Tests fail, application crashes, or user reports unexpected behavior.
 - **Inputs**: Exception trace, error logs, or bug report description.
-- **Tools Needed**: IDE, terminal debugger, Chrome DevTools (if web app), Code Review Graph (for blast-radius and impact mapping), React Doctor (for React state/effects/performance analysis).
+- **Tools Needed**: IDE, terminal debugger, Chrome DevTools (if web app), Code Review Graph (for blast-radius and impact mapping), Open Code Review (for post-fix diff review), React Doctor (for React state/effects/performance analysis).
 
 ## Steps
 
@@ -20,6 +20,7 @@ Systematic tracking, verification, and resolution of codebase bugs and errors.
 4. **Verification**:
    - Re-run reproduction steps to ensure the error does not trigger.
    - Run the full test suite to catch regressions.
+   - Run `ocr review` to ensure the bug fix is clean and conforms to local code quality rules.
 
 ## Quality Checks
 
