@@ -21,6 +21,27 @@ Planning is not slow. Bad planning is slow. Skipping planning is slower.
 
 ---
 
+## Before You Plan
+
+Before formulating a plan or starting a build session, verify that you have completed the prerequisite setup from the **Getting Started** path:
+
+- [ ] **MVP Spec:** An approved, locked-down MVP specification exists.
+- [ ] **PRODUCT.md:** The project's core purpose and scope are recorded.
+- [ ] **STACK_DECISION.md:** The technology stack and constraints are defined.
+- [ ] **Non-goals:** The non-goals and exclusions are explicit in the spec.
+- [ ] **First Slice:** The first actionable implementation slice has been identified.
+- [ ] **Repo Inspection:** The coding agent has physically inspected the workspace directory structure and existing code files.
+
+![COPY THIS](../assets/badges/copy-this.svg)
+
+Copy this planning prompt into your lead agent to create your build plan:
+
+```
+Use the approved MVP spec and project truth files to produce a build plan. Do not change scope. Do not add features. If a decision is missing, add it to OPEN_QUESTIONS.md.
+```
+
+---
+
 ## The Planning Loop
 
 Before writing any code for a feature or project, establish:

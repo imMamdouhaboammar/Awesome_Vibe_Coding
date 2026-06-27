@@ -8,6 +8,15 @@
 
 Once you have a lead agent, a default stack, and your rules in place — this is where the actual work happens.
 
+> [!IMPORTANT]
+> **Prerequisites Checklist**
+> Before starting any Core Workflow session, ensure that:
+> 1. An approved **MVP spec** exists.
+> 2. The **Project Truth Layer** files (`PRODUCT.md`, `DESIGN.md`, etc.) are established in the repo.
+> 3. Your **Lead Agent** has been chosen and initialized.
+> 4. Project-specific **rules** (`RULES.md`) have been drafted.
+> 5. The **first implementation slice** has been clearly identified.
+
 ---
 
 ## Lessons in This Section
