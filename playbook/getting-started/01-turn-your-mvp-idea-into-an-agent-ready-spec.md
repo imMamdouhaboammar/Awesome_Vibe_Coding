@@ -8,7 +8,7 @@
 
 | Level | Duration | Path | Prerequisites | Tools Mentioned |
 |---|---|---|---|---|
-| Beginner | 7 mins | Start Here | Lesson 00 | Claude Code, Spec Kit, Delegate Team |
+| Beginner | 7 mins | Start Here | Lesson 00 | Claude Code, Spec Kit, Delegate Team, TDD |
 
 ### Active Signals in this Lesson
 - ![DO THIS FIRST](../assets/badges/do-this-first.svg) · ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![COPY THIS](../assets/badges/copy-this.svg) · ![AGENT MOVE](../assets/badges/agent-move.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg)
@@ -19,7 +19,7 @@
 
 Most people use coding agents too early.
 
-They open a terminal agent or cursor pane with a half-shaped idea, write a prompt like "build me a freelancer dashboard app," and expect the agent to turn that raw idea into a production-grade product.
+They open a terminal agent or Cursor pane with a half-shaped idea, write a prompt like "build me a freelancer dashboard app," and expect the agent to turn that raw idea into a production-grade product.
 
 That is where the drift starts. 
 
@@ -29,26 +29,18 @@ The first step is not opening the coding agent. It is explaining the problem wel
 
 ---
 
-## The Core Mental Model
+## Core Mental Model: Thinking Client vs Coding Agent
 
 ![MENTAL MODEL](../assets/badges/mental-model.svg)
 
 To build reliably with AI, you must separate **thinking** from **building**. These are two different phases that require different roles and distinct contexts:
 
 1. **AI Client for Thinking (Product Thinking Partner)**
-   * **Tools:** 
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" width="16" height="16" valign="middle" /> **ChatGPT** (OpenAI)
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/claude.svg" width="16" height="16" valign="middle" /> **Claude** (Web UI)
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg" width="16" height="16" valign="middle" /> **Gemini Advanced**
+   * **Tools:** ChatGPT, Claude Web UI, Gemini Advanced.
    * **Job:** Act as a product manager. It helps you shape the idea, questions your assumptions, defines the MVP scope, and establishes user flows.
    * **Output:** A locked-down, approved MVP Specification.
-
 2. **Coding Agent for Building (Build Operator)**
-   * **Tools:** 
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/claude.svg" width="16" height="16" valign="middle" /> **Claude Code**
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" width="16" height="16" valign="middle" /> **Codex**
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/cursor.svg" width="16" height="16" valign="middle" /> **Cursor**
-     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg" width="16" height="16" valign="middle" /> **Gemini CLI**
+   * **Tools:** Claude Code, Cursor, Gemini CLI, etc.
    * **Job:** Act as a staff engineer. It takes the approved MVP spec, inspects the repo, sets up the project truth files, initializes workflows, and writes the code.
    * **Output:** A working, verified codebase.
 
@@ -56,74 +48,23 @@ If you ask the Build Operator to do the job of the Product Thinking Partner, it 
 
 ---
 
-## You Are Not Building an MVP
+## The Basic Workflow
 
-Let's clear up a common misconception:
+The basic workflow consists of defining the problem before moving to the spec:
 
-> We do not build an MVP just to make something small. We build it to deliver a real solution to a specific problem, using the first version that can be tested by real users.
+1. **Explain the Problem First:** Explain the problem to the thinking client before discussing features.
+2. **Transform Your Raw Idea:** Translate a vague idea into a targeted problem statement.
 
-Your MVP is a real, high-quality solution to a targeted friction point. It might be:
-* An internal tool for your team to automate database migrations
-* A micro-dashboard that replaces a manual spreadsheet report
-* A developer workflow command-line utility
-* A specific content production or planning pipeline
+### Example of Problem Transformation
 
-Keep it small, but make it real.
-
----
-
-## The Workflow
-
-```txt
-[ Raw Idea ]
-     │
-     ▼
-Step 1: Open AI Client (Thinking Partner)
-     │   * Discuss problem before product
-     │   * Ask clarifying questions
-     ▼
-Step 2: Generate MVP Spec
-     │   * Lock scope, flow, and criteria
-     ▼
-Step 3: Move to Coding Agent (Build Operator)
-     │   * AGENT MOVE: Handoff spec to repo
-     ▼
-Step 4: Establish Repository Truth
-         * Create/Update PRODUCT.md, DESIGN.md, etc.
-         * Set up Spec Kit & Delegate Team
-         * Implement slice by slice
-```
+* **Raw MVP Idea:**
+  > "I want to build a fitness tracking app with social features and workout shares."
+* **Clearer Problem Statement (Ready for Spec):**
+  > "Busy remote workers need a friction-free way to log their daily bodyweight exercises in under 30 seconds, because current fitness apps require too many taps and distract them with social feeds."
 
 ---
 
-## Step 1: Explain the Problem Before the Product
-
-![DO THIS FIRST](../assets/badges/do-this-first.svg)
-
-Before writing down any feature lists or choosing a framework, explain the problem. Answer these questions in your thinking client:
-1. What is the specific problem or inefficiency?
-2. Who is experiencing this problem?
-3. What is the current manual workaround?
-4. Why is resolving it valuable?
-
----
-
-## Step 2: Define the Job Before the Build
-
-Before writing any code or prompts, write one clear definition of the product's job:
-
-1. **What am I building?**
-   Not the full spec — just one clear sentence. *Example:* "A tool that lets freelancers track client invoices and flag overdue payments."
-2. **For whom?**
-   Who uses this? What do they care about? What would make them stop using it?
-3. **What does done look like?**
-   What is the first version that a real person could use? Not the final vision — the first useful version.
-4. **What should never happen?**
-   The non-negotiables. Things that, if broken, invalidate the whole product. Write these down. They become your quality gates.
-
----
-
-## Step 3: The Discovery Conversation
+## Copy This: Product Thinking Prompt
 
 ![COPY THIS](../assets/badges/copy-this.svg)
 
@@ -153,8 +94,6 @@ Before suggesting features, ask me the minimum useful questions needed to clarif
 4. what the first useful version should do
 5. what should be intentionally excluded from v1
 6. what success looks like after the first version
-7. what risks or assumptions we need to validate
-8. what type of stack might fit later, without choosing it yet
 
 Rules:
 * Do not write code
@@ -182,22 +121,7 @@ Work with the thinking client until you are satisfied. Copy the final generated 
 
 ---
 
-## Step 4: Handoff to the Coding Agent
-
-![AGENT MOVE](../assets/badges/agent-move.svg)
-
-Once the MVP spec is locked, move to your coding agent (e.g. Claude Code or Gemini CLI) within your repository.
-
-![DON'T BREAK](../assets/badges/dont-break.svg)
-
-> **DON'T BREAK:** Do not let the coding agent start writing production code immediately. It must first inspect the repository, set up the project truth files, and organize its engineering workflows.
-
-> [!NOTE]
-> The setup prompt focuses on initializing the **Initial Truth Layer** (`PRODUCT.md`, `DESIGN.md`, `AGENT.md`, `STACK_DECISION.md`, `IMPLEMENTATION_PLAN.md`, `OPEN_QUESTIONS.md`). The operational files (`RULES.md` and `TASKS.md`) are managed as part of the **Operational Layer** that governs subsequent execution sessions (see [Project Truth Layer Standard](../design-system/project-truth-layer.md)).
-
----
-
-## Step 5: The Build Setup Prompt
+## Copy This: Coding Agent Handoff Prompt
 
 ![COPY THIS](../assets/badges/copy-this.svg)
 
@@ -242,69 +166,49 @@ Create or update these files:
 * IMPLEMENTATION_PLAN.md
 * OPEN_QUESTIONS.md
 
-If GitHub Spec Kit is suitable for this project:
-* Check whether Spec Kit is already installed or initialized
-* If not installed, propose the exact setup command and wait for approval
-* After approval, initialize the Spec Kit workflow
-* Use the sequence: constitution, specify, plan, tasks, implement
-* Do not skip clarification before planning
-
-If Delegate Team is suitable:
-* Check whether `dt` is available with `dt --help`
-* Check backend readiness with `dt check --strict`
-* If `dt` is missing, propose the setup steps and wait for approval
-* Do not run `dt setup` automatically
-* Do not run `dt link-skill` automatically
-* If delegation is needed, use focused tasks only
-* Review every delegated result before applying it
-
-If TDD or Superpowers-style skills are suitable:
-* Recommend the relevant skill or workflow
-* Explain where it will be used
-* Do not enforce TDD on UI-only exploration unless there is testable behavior
-* For logic-heavy features, prefer failing tests before implementation
-
-Use @lobehub/icons for any AI/client/provider logos or SVG logo assets.
-Follow this rule:
-* Read https://lobehub.com/icons/skill.md and follow the instructions to use @lobehub/icons
-* Prefer SVG when the asset will be used in documentation, UI, or visual system files
-* Do not invent unofficial logos
-* If an icon is missing, say so and suggest the nearest valid alternative
-
-After the setup phase, give me:
-1. Recommended stack and why
-2. Files created or changed
-3. Spec Kit status
-4. Delegate Team status
-5. Testing strategy
-6. First implementation slice
-7. Risks before coding
-8. Approval checklist
-
 Wait for my approval before writing production code.
 ```
 
 ---
 
-## Engineering Disciplines Demystified
+## Basic Version: If you use only ChatGPT + Claude Code
 
-Understanding the tools referenced in the handoff prompt helps you control the project lifecycle:
+If you are just getting started, you do not need advanced tooling or custom configurations:
+
+1. **Thinking Phase:** Paste the **Product Thinking Prompt** into ChatGPT's web interface. Have a conversation, refine the scope, and copy the final MVP spec text.
+2. **Handoff Phase:** Open your terminal in a fresh directory, start Claude Code, and paste the **Coding Agent Handoff Prompt** along with your spec text.
+3. **Execution:** Claude Code will inspect the directory and automatically bootstrap the required Initial Truth Layer files (`PRODUCT.md`, `DESIGN.md`, etc.). Once approved, you tell Claude Code what slice to build first and write code directly in the main terminal context.
+
+---
+
+## Advanced Version: If you use Spec Kit + Delegate Team + TDD
+
+If you are running complex client projects or working in a larger repository, extend the workflow by enabling advanced coordination and engineering gates:
+
+1. **Spec Kit Initialization:** The handoff prompt directs the agent to verify or install Spec Kit to enforce a structured workflow: *Constitution -> Specify -> Plan -> Tasks -> Implement* (see `playbook/design-system/project-truth-layer.md`).
+2. **Multi-Agent Delegation:** Give the lead agent (Claude Code) access to `delegate-team` (`dt`). The lead agent can offload deep code generation (e.g. boilerplate or unit tests) to specialized support backends (like Codex or Gemini) without polluting its active terminal memory.
+3. **Test-Driven Development (TDD):** For critical business logic or state transitions, enforce a strict "failing tests first" rule before implementing features.
+4. **SVG Asset Policy:** Integrate `lobehub/icons` using the canonical [Icon Policy](../design-system/icon-policy.md) to dynamically search and fetch static brand assets for UIs or system architecture documents.
+
+---
+
+## Tool Notes
 
 ### Spec Kit (Spec Discipline)
-* **What:** An open-source toolkit by GitHub that enforces a structured workflow: *Constitution -> Specify -> Plan -> Tasks -> Implement*.
-* **Why:** It prevents the coding agent from writing code before it has fully clarified what the code should do.
+* **What:** A structured template and workflow kit that forces agents to verify architecture and milestones before writing code.
+* **Why:** Prevents the coding agent from drifting or writing code before it has fully clarified *what* the code should accomplish.
 
 ### Delegate Team (Delegation Runtime)
-* **What:** A unified multi-backend developer agent dispatch suite (`dt`). It allows your lead agent (like Claude Code) to route isolated coding tasks to specialized backends (Codex, Gemini, VertexCoder) and review the diffs locally.
+* **What:** A unified multi-backend developer agent dispatch suite (`dt`) running locally.
 * **Why:** Keeps your lead agent's context clean and avoids token bloat by delegating heavy boilerplate or test-writing tasks to subagents.
 
 ### TDD / Superpowers (Engineering Discipline)
 * **What:** An engineering methodology enforcing test-first development.
-* **Why:** For core business logic or algorithms, writing a failing test *first* ensures the agent writes exactly what is needed to pass, rather than guessing or over-engineering.
+* **Why:** Writing a failing test *first* ensures the agent writes exactly what is needed to pass, rather than guessing or over-engineering.
 
 ### SVG & Brand Icons (LobeHub Icons)
 * **What:** A comprehensive AI/LLM icon library.
-* **Why:** Avoids unofficial or messy image placeholders. Follow the canonical [Icon Policy](../design-system/icon-policy.md) (which uses LobeHub Icons) to query static SVG assets for dashboards, architecture documentation, or buttons.
+* **Why:** Avoids unofficial or messy image placeholders. We follow the canonical [Icon Policy](../design-system/icon-policy.md) to query static SVG assets for dashboards, architecture documentation, or buttons.
 
 ---
 
@@ -318,9 +222,9 @@ Before writing the first line of code, confirm that you have completed these che
 - [ ] Stated the core problem clearly before discussing feature implementation.
 - [ ] Generated an MVP specification detailing core flows, goals, and non-goals.
 - [ ] Copied the spec into the repository and let the coding agent generate the **Project Truth** files (`PRODUCT.md`, `DESIGN.md`, etc.).
-- [ ] Selected the engineering discipline (e.g. Spec Kit, Delegate Team setup, or TDD) that fits the scale of the task.
+- [ ] Selected the engineering discipline (Basic ChatGPT + Claude Code or Advanced Spec Kit + Delegate Team) that fits the scale of the task.
 - [ ] Established approval gates for dependency installation and code commits.
 
 ---
 
-*← Previous: [Step 0: Build the Project Truth](./00-step-zero-build-the-project-truth.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*
+*← Back to [Getting Started](./README.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*
