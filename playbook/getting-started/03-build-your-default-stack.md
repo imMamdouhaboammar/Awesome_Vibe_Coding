@@ -9,7 +9,7 @@
 | Beginner | 5 mins | Start Here | Lesson 02 | Claude Code, Cursor, RTK, Serena |
 
 ### Active Signals in this Lesson
-- ![DEFAULT STACK](../assets/badges/default-stack.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![COPY THIS](../assets/badges/copy-this.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg)
+- ![DEFAULT STACK](../assets/badges/default-stack.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![COPY THIS](../assets/badges/copy-this.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg) · ![AGENT MOVE](../assets/badges/agent-move.svg)
 
 ---
 
@@ -217,6 +217,55 @@ Rules:
 
 ---
 
+## Superhero Prompt
+
+![COPY THIS](../assets/badges/copy-this.svg) ![AGENT MOVE](../assets/badges/agent-move.svg)
+
+**Arm your coding agent before you ask it to build.**
+
+A vibe coder should not ask the agent to write production code before the agent has the right skills, rules, checks, hooks, and runtime safety. This reduces spaghetti code from the very beginning.
+
+<p align="center">
+  <img src="../assets/callouts/superhero-prompt.svg" alt="Superhero Prompt" width="100%" />
+</p>
+
+### Clean Code Skill
+
+One recommended way to equip the agent before building is to install a clean-code skill. The `clean-code` skill inside [`antigravity-awesome-skills`](https://github.com/sickn33/antigravity-awesome-skills) covers meaningful naming, single-responsibility functions, no hidden side effects, error handling, and test discipline — applied to new code, PR reviews, and refactoring.
+
+Suggested command to propose to your agent:
+
+```bash
+npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill clean-code
+```
+
+![DON'T BREAK](../assets/badges/dont-break.svg)
+
+> **Approval Gate:** The agent must verify whether the `skills` CLI exists in the local environment before running this command. If the command is not valid, the agent must propose the correct alternative and wait for your approval before executing anything. Do not allow the agent to run install commands without verification.
+
+### The Full Prompt
+
+The Superhero Prompt is a reusable, copy-ready prompt that you paste into your coding agent at the start of a project or feature session. It covers 10 preparation steps:
+
+1. Inspect Before Installing
+2. Clean Code Skill
+3. Anti-Spaghetti Rules
+4. Runtime Safety
+5. Spec Discipline
+6. Delegation Runtime
+7. TDD / Test Discipline
+8. Hooks and Quality Gates
+9. Logo and Icon Rule
+10. Approval Report
+
+![COPY THIS](../assets/badges/copy-this.svg)
+
+→ [Open the full Superhero Prompt template](../templates/superhero-prompt.md)
+
+> **Don't ask the agent to write clean code. Give it a clean-code operating system before it starts.**
+
+---
+
 ## Ship Check
 
 ![SHIP CHECK](../assets/badges/ship-check.svg)
@@ -227,6 +276,7 @@ Rules:
 - [ ] At least one quality gate chosen
 - [ ] `STACK_DECISION.md` written and saved in the project (and optionally `STACK.md` summarized)
 - [ ] If this is a React app, an Error Boundary or framework equivalent is installed before building major UI flows
+- [ ] Superhero Prompt pasted into the coding agent and Approval Report reviewed before writing production code
 
 <p align="center">
   <a href="./02-choose-your-lead-agent.md">

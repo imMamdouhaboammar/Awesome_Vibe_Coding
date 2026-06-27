@@ -1,0 +1,155 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Superhero Prompt — Arm your coding agent before you ask it to build">
+
+  <!-- Paper background -->
+  <rect width="1200" height="360" rx="12" fill="#F8F5EE"/>
+
+  <!-- Subtle grid overlay -->
+  <line x1="0" y1="60" x2="1200" y2="60" stroke="#EFE7D8" stroke-width="1"/>
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#EFE7D8" stroke-width="1"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#EFE7D8" stroke-width="1"/>
+  <line x1="0" y1="240" x2="1200" y2="240" stroke="#EFE7D8" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#EFE7D8" stroke-width="1"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="1198" height="358" rx="11" stroke="#111827" stroke-width="2"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="6" height="360" rx="3" fill="#111827"/>
+
+  <!-- ═══ MOTIF CLUSTER — top-left ═══ -->
+
+  <!-- Shield outline (18x22 at x=44, y=32) -->
+  <path d="M53 32 L62 32 L66 38 L66 52 C66 56 53 60 53 60 C53 60 40 56 40 52 L40 38 Z"
+        fill="none" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Shield inner tick -->
+  <path d="M48 46 L52 50 L58 42" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Terminal bracket (x=82, y=36) -->
+  <rect x="82" y="36" width="38" height="22" rx="4" fill="none" stroke="#4B5563" stroke-width="1.5"/>
+  <text x="86" y="52" font-family="JetBrains Mono, Courier New, monospace" font-size="11" fill="#4B5563">$_</text>
+
+  <!-- Spark / star (x=136, y=38) -->
+  <path d="M144 38 L145.5 43 L150 44 L145.5 45 L144 50 L142.5 45 L138 44 L142.5 43 Z"
+        fill="#D97706" stroke="none"/>
+  <path d="M152 34 L152.8 36.2 L155 37 L152.8 37.8 L152 40 L151.2 37.8 L149 37 L151.2 36.2 Z"
+        fill="#D97706" stroke="none" opacity="0.6"/>
+
+  <!-- ═══ MAIN TITLE ═══ -->
+  <text x="176" y="57" font-family="Inter, Outfit, system-ui, sans-serif" font-size="32" font-weight="800" fill="#111827" letter-spacing="-0.5">Superhero Prompt</text>
+
+  <!-- Subtitle -->
+  <text x="44" y="94" font-family="Inter, Arial, sans-serif" font-size="16" fill="#4B5563" font-style="italic">Arm your coding agent before you ask it to build.</text>
+
+  <!-- Divider under header -->
+  <line x1="44" y1="110" x2="1156" y2="110" stroke="#111827" stroke-width="1.5"/>
+
+  <!-- ═══ CORE MESSAGE ═══ -->
+  <text x="44" y="140" font-family="Inter, Arial, sans-serif" font-size="14" fill="#111827" font-weight="600">Don't ask the agent to write clean code.</text>
+  <text x="390" y="140" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4B5563">Give it a clean-code operating system before it starts.</text>
+
+  <!-- Step pills row -->
+  <!-- Step 1 -->
+  <rect x="44" y="160" width="148" height="28" rx="14" fill="#111827"/>
+  <text x="68" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">1 · Inspect First</text>
+
+  <!-- Step 2 -->
+  <rect x="202" y="160" width="148" height="28" rx="14" fill="#111827"/>
+  <text x="222" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#D97706" letter-spacing="0.4">2 · Clean Code Skill</text>
+
+  <!-- Step 3 -->
+  <rect x="360" y="160" width="152" height="28" rx="14" fill="#111827"/>
+  <text x="378" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">3 · Anti-Spaghetti</text>
+
+  <!-- Step 4 -->
+  <rect x="522" y="160" width="148" height="28" rx="14" fill="#111827"/>
+  <text x="542" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">4 · Runtime Safety</text>
+
+  <!-- Step 5 -->
+  <rect x="680" y="160" width="130" height="28" rx="14" fill="#111827"/>
+  <text x="698" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">5 · Spec Rules</text>
+
+  <!-- Step 6 -->
+  <rect x="820" y="160" width="116" height="28" rx="14" fill="#111827"/>
+  <text x="836" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">6 · Delegate</text>
+
+  <!-- Step 7 -->
+  <rect x="946" y="160" width="90" height="28" rx="14" fill="#111827"/>
+  <text x="962" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">7 · TDD</text>
+
+  <!-- Step 8 -->
+  <rect x="1046" y="160" width="110" height="28" rx="14" fill="#111827"/>
+  <text x="1058" y="179" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#F8F5EE" letter-spacing="0.4">8 · Quality Gates</text>
+
+  <!-- Divider -->
+  <line x1="44" y1="208" x2="1156" y2="208" stroke="#EFE7D8" stroke-width="1"/>
+
+  <!-- ═══ CLEAN CODE SKILL BLOCK ═══ -->
+  <!-- Terminal card -->
+  <rect x="44" y="222" width="540" height="88" rx="6" fill="#111827"/>
+  <rect x="45" y="223" width="538" height="86" rx="5" stroke="#D97706" stroke-width="1.5"/>
+
+  <!-- Terminal dot row -->
+  <circle cx="62" cy="238" r="4" fill="#DC2626" opacity="0.8"/>
+  <circle cx="78" cy="238" r="4" fill="#D97706" opacity="0.8"/>
+  <circle cx="94" cy="238" r="4" fill="#16A34A" opacity="0.8"/>
+
+  <text x="62" y="262" font-family="JetBrains Mono, Courier New, monospace" font-size="12" fill="#D97706">$</text>
+  <text x="76" y="262" font-family="JetBrains Mono, Courier New, monospace" font-size="12" fill="#F8F5EE">npx skills add</text>
+  <text x="76" y="280" font-family="JetBrains Mono, Courier New, monospace" font-size="11" fill="#4B5563">  https://github.com/sickn33/antigravity-awesome-skills</text>
+  <text x="76" y="297" font-family="JetBrains Mono, Courier New, monospace" font-size="11" fill="#D97706">  --skill clean-code</text>
+
+  <!-- Approval gate note -->
+  <rect x="44" y="318" width="540" height="28" rx="4" fill="#EFE7D8"/>
+  <text x="62" y="336" font-family="Inter, Arial, sans-serif" font-size="12" fill="#111827">
+    <tspan font-weight="700">⚠ Approval Gate:</tspan>
+    <tspan> Verify CLI exists · Check help syntax · Wait for approval before running</tspan>
+  </text>
+
+  <!-- ═══ RIGHT COLUMN — Badges ═══ -->
+  <!-- Badge cluster label -->
+  <text x="640" y="238" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563" font-weight="600" letter-spacing="0.6">ACTIVE SIGNALS</text>
+
+  <!-- COPY THIS badge -->
+  <rect x="640" y="248" width="142" height="32" rx="16" fill="#111827"/>
+  <rect x="641" y="249" width="140" height="30" rx="15" stroke="#FB923C" stroke-width="2"/>
+  <rect x="653" y="259" width="9" height="11" rx="1.5" stroke="#FB923C" stroke-width="2"/>
+  <rect x="657" y="256" width="9" height="11" rx="1.5" stroke="#FB923C" stroke-width="2" fill="#111827"/>
+  <text x="674" y="269" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FB923C" letter-spacing="0.8">COPY THIS</text>
+
+  <!-- AGENT MOVE badge -->
+  <rect x="794" y="248" width="156" height="32" rx="16" fill="#111827"/>
+  <rect x="795" y="249" width="154" height="30" rx="15" stroke="#06B6D4" stroke-width="2"/>
+  <circle cx="814" cy="264" r="6" stroke="#06B6D4" stroke-width="2"/>
+  <circle cx="814" cy="261" r="2" fill="#06B6D4"/>
+  <path d="M809 269C809 267 811 266 814 266C817 266 819 267 819 269" stroke="#06B6D4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M820 260L823 264L820 268" stroke="#06B6D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="829" y="269" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#06B6D4" letter-spacing="0.8">AGENT MOVE</text>
+
+  <!-- DON'T BREAK badge -->
+  <rect x="960" y="248" width="148" height="32" rx="16" fill="#111827"/>
+  <rect x="961" y="249" width="146" height="30" rx="15" stroke="#DC2626" stroke-width="2"/>
+  <path d="M978 260H982M980 258V262" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="980" cy="260" r="5" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="993" y="269" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#DC2626" letter-spacing="0.8">DON'T BREAK</text>
+
+  <!-- DEFAULT STACK badge -->
+  <rect x="640" y="292" width="168" height="32" rx="16" fill="#111827"/>
+  <rect x="641" y="293" width="166" height="30" rx="15" stroke="#2563EB" stroke-width="2"/>
+  <rect x="652" y="256" width="11" height="13" rx="1" stroke="#2563EB" stroke-width="1.5"/>
+  <path d="M654 263H660M654 267H658" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- layers icon -->
+  <path d="M655 300L663 297L671 300L663 303Z" stroke="#2563EB" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  <path d="M655 296L663 293L671 296" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="678" y="313" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#2563EB" letter-spacing="0.8">DEFAULT STACK</text>
+
+  <!-- SHIP CHECK badge -->
+  <rect x="820" y="292" width="134" height="32" rx="16" fill="#111827"/>
+  <rect x="821" y="293" width="132" height="30" rx="15" stroke="#16A34A" stroke-width="2"/>
+  <path d="M834 300L837 304L843 296" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="850" y="313" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#16A34A" letter-spacing="0.8">SHIP CHECK</text>
+
+  <!-- ═══ BOTTOM TAG ═══ -->
+  <text x="44" y="352" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563">Part of the Riftbook Playbook</text>
+  <text x="1156" y="352" font-family="Inter, Arial, sans-serif" font-size="11" fill="#4B5563" text-anchor="end">playbook/templates/superhero-prompt.md</text>
+
+</svg>

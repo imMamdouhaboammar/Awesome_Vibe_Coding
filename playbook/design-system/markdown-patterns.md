@@ -120,3 +120,38 @@ Riftbook enforces strict Markdown patterns for layout styling and content flow. 
   * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" width="16" height="16" valign="middle" /> **OpenAI**
   * Use the **Claude Code** command-line interface.
   ```
+
+---
+
+## 9. Superhero Prompt Block
+- **Pattern:** Begin with the `COPY THIS` and `AGENT MOVE` badge pair, a blank line, a bold subtitle in italics, a blank line, the callout SVG (centered), then the body copy. All install commands must be followed immediately by a `DON'T BREAK` approval gate blockquote.
+- **Example:**
+  ```markdown
+  ## Superhero Prompt
+
+  ![COPY THIS](../assets/badges/copy-this.svg) ![AGENT MOVE](../assets/badges/agent-move.svg)
+
+  **Arm your coding agent before you ask it to build.**
+
+  <p align="center">
+    <img src="../assets/callouts/superhero-prompt.svg" alt="Superhero Prompt" width="100%" />
+  </p>
+
+  ### Clean Code Skill
+
+  Suggested command to propose to your agent:
+
+  ```bash
+  npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill clean-code
+  ```
+
+  ![DON'T BREAK](../assets/badges/dont-break.svg)
+
+  > **Approval Gate:** The agent must verify whether the `skills` CLI exists before running this command.
+
+  → [Open the full Superhero Prompt template](../templates/superhero-prompt.md)
+  ```
+- **Rules:**
+  * The full prompt always lives in `playbook/templates/superhero-prompt.md`. Do not duplicate the full prompt text in lesson files — link to it instead.
+  * The `DON'T BREAK` approval gate blockquote is mandatory when any install command is shown.
+  * The callout SVG is optional in sub-sections but required in the primary lesson entry point.

@@ -156,3 +156,23 @@ The Riftbook Visual System is composed of 9 core components designed to improve 
 - **"Do not" rules for agents:**
   * Do not use unofficial logos.
   * Do not add images of logos directly inside running text sentences; keep them in bulleted lists or headers.
+
+---
+
+## 10. Superhero Prompt Callout Card
+- **Purpose:** Serve as a branded visual anchor for the Superhero Prompt section — a preparation ritual callout that tells builders to arm their coding agent before starting implementation.
+- **When to use:** Once inside `playbook/getting-started/03-build-your-default-stack.md`, directly above the Superhero Prompt body copy.
+- **When not to use:** Inside individual lesson heroes, case studies, or section headers.
+- **Asset path:** `playbook/assets/callouts/superhero-prompt.svg`
+- **Markdown example:**
+  ```markdown
+  <p align="center">
+    <img src="../assets/callouts/superhero-prompt.svg" alt="Superhero Prompt" width="100%" />
+  </p>
+  ```
+- **Common mistakes:** Embedding in multiple locations instead of linking to the template file, or changing the `alt` attribute text.
+- **Good example:** `/playbook/getting-started/03-build-your-default-stack.md`
+- **"Do not" rules for agents:**
+  * Do not copy this SVG to other directories. The canonical path is `playbook/assets/callouts/superhero-prompt.svg`.
+  * Do not change the `alt` attribute from `Superhero Prompt`.
+  * Do not place this callout card on section READMEs or lesson hero positions.

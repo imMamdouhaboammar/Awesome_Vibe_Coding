@@ -1,6 +1,6 @@
 # Badge System
 
-Riftbook uses a standardized system of 15 inline signal badges to categorize advice and highlight critical sections in lessons.
+Riftbook uses a standardized system of 15 inline signal badges to categorize advice and highlight critical sections in lessons. The **Superhero Prompt** component ([templates/superhero-prompt.md](../templates/superhero-prompt.md)) is a registered use case for `COPY THIS`, `AGENT MOVE`, `DON'T BREAK`, `DEFAULT STACK`, and `SHIP CHECK`.
 
 ---
 
