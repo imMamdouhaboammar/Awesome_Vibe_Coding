@@ -193,3 +193,9 @@ For serious brand or product work, still review the output manually. Treat it as
 
 * GitHub: [https://github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 * Website: [https://uupm.cc](https://uupm.cc)
+
+---
+
+## Special Thanks
+
+Special thanks to [@nextlevelbuilder](https://github.com/nextlevelbuilder) for creating and maintaining the amazing [UI UX Pro Max](https://github.com/nextlevelbuilder) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

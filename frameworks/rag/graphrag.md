@@ -292,3 +292,9 @@ Treat it as RAG infrastructure, not a quick AI coding skill.
 * Getting Started: [https://microsoft.github.io/graphrag/get_started/](https://microsoft.github.io/graphrag/get_started/)
 * Microsoft Research Blog: [https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
 * arXiv: [https://arxiv.org/abs/2404.16130](https://arxiv.org/abs/2404.16130)
+
+---
+
+## Special Thanks
+
+Special thanks to [@microsoft](https://github.com/microsoft) for creating and maintaining the amazing [GraphRAG](https://github.com/microsoft) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

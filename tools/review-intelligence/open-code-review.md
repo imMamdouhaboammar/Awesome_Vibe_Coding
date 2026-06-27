@@ -426,3 +426,9 @@ Treat it as a code review automation layer, not as a replacement for human judgm
 * GitHub: [https://github.com/alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 * GitHub Actions examples: [https://github.com/alibaba/open-code-review/tree/main/examples/github_actions](https://github.com/alibaba/open-code-review/tree/main/examples/github_actions)
 * GitLab CI examples: [https://github.com/alibaba/open-code-review/tree/main/examples/gitlab_ci](https://github.com/alibaba/open-code-review/tree/main/examples/gitlab_ci)
+
+---
+
+## Special Thanks
+
+Special thanks to [@alibaba](https://github.com/alibaba) for creating and maintaining the amazing [Open Code Review](https://github.com/alibaba) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

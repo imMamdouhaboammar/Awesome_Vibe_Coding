@@ -216,3 +216,9 @@ Before applying anything from this repo, check:
 ## Links
 
 * GitHub: [https://github.com/shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
+
+---
+
+## Special Thanks
+
+Special thanks to [@shanraisshan](https://github.com/shanraisshan) for creating and maintaining the amazing [Claude Code Best Practice](https://github.com/shanraisshan) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

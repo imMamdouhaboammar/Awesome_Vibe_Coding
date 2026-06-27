@@ -174,3 +174,9 @@ Avoid it when you need detailed teaching, brand writing, sales copy, documentati
 
 * GitHub: [https://github.com/JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 * Install guide: [https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md)
+
+---
+
+## Special Thanks
+
+Special thanks to [@JuliusBrussee](https://github.com/JuliusBrussee) for creating and maintaining the amazing [Caveman](https://github.com/JuliusBrussee) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

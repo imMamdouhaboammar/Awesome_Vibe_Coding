@@ -244,3 +244,9 @@ Before marking the UI complete, the agent should confirm:
 
 * GitHub: [https://github.com/Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
 * Website: [https://tasteskill.dev](https://tasteskill.dev)
+
+---
+
+## Special Thanks
+
+Special thanks to [@Leonxlnx](https://github.com/Leonxlnx) for creating and maintaining the amazing [Taste Skill](https://github.com/Leonxlnx) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

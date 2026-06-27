@@ -240,3 +240,9 @@ For native Windows, RTK filtering can work, but full hook auto-rewrite behavior 
 * GitHub: [https://github.com/rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 * Website: [https://www.rtk-ai.app/](https://www.rtk-ai.app/)
 * Releases: [https://github.com/rtk-ai/rtk/releases](https://github.com/rtk-ai/rtk/releases)
+
+---
+
+## Special Thanks
+
+Special thanks to [@rtk-ai](https://github.com/rtk-ai) for creating and maintaining the amazing [RTK](https://github.com/rtk-ai) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

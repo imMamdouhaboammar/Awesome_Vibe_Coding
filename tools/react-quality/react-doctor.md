@@ -366,3 +366,9 @@ Use reviewdog when you want findings from React Doctor (or other linters) to app
 * GitHub: [https://github.com/millionco/react-doctor](https://github.com/millionco/react-doctor)
 * Website: [https://react.doctor](https://react.doctor)
 * CI docs: [https://react.doctor](https://react.doctor)
+
+---
+
+## Special Thanks
+
+Special thanks to [@millionco](https://github.com/millionco) for creating and maintaining the amazing [React Doctor](https://github.com/millionco) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

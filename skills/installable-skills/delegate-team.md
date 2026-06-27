@@ -166,3 +166,9 @@ Before trusting `dt` output for a merge, check:
 * Access setup guide: [AGENT_ACCESS_GUIDE.md](https://github.com/imMamdouhaboammar/delegate-team/blob/master/AGENT_ACCESS_GUIDE.md)
 * Delegation protocol: [DELEGATION_PROTOCOL.md](https://github.com/imMamdouhaboammar/delegate-team/blob/master/DELEGATION_PROTOCOL.md)
 * Security model: [SECURITY.md](https://github.com/imMamdouhaboammar/delegate-team/blob/master/SECURITY.md)
+
+---
+
+## Special Thanks
+
+Special thanks to [@imMamdouhaboammar](https://github.com/imMamdouhaboammar) for creating and maintaining the amazing [Delegate Team](https://github.com/imMamdouhaboammar) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

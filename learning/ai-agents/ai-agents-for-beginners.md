@@ -184,3 +184,9 @@ It is strongest when used as a foundation before building real agentic apps. For
 
 * GitHub: [https://github.com/microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
 * Course site: [https://microsoft.github.io/ai-agents-for-beginners/](https://microsoft.github.io/ai-agents-for-beginners/)
+
+---
+
+## Special Thanks
+
+Special thanks to [@microsoft](https://github.com/microsoft) for creating and maintaining the amazing [AI Agents for Beginners](https://github.com/microsoft) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

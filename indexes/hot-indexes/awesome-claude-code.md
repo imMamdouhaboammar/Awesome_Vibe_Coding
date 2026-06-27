@@ -182,3 +182,9 @@ Do not copy its entire list into Riftbook. That would make your repo noisy. Use 
 ## Links
 
 * GitHub: [https://github.com/hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+
+---
+
+## Special Thanks
+
+Special thanks to [@hesreallyhim](https://github.com/hesreallyhim) for creating and maintaining the amazing [Awesome Claude Code](https://github.com/hesreallyhim) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

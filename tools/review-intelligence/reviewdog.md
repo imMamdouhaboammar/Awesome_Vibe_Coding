@@ -320,3 +320,9 @@ Do not use reviewdog as a replacement for AI review, graph-based review, or huma
 * GitHub: [https://github.com/reviewdog/reviewdog](https://github.com/reviewdog/reviewdog)
 * GitHub Actions setup: [https://github.com/reviewdog/action-setup](https://github.com/reviewdog/action-setup)
 * Reviewdog actions: [https://github.com/reviewdog](https://github.com/reviewdog)
+
+---
+
+## Special Thanks
+
+Special thanks to [@reviewdog](https://github.com/reviewdog) for creating and maintaining the amazing [reviewdog](https://github.com/reviewdog) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

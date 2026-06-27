@@ -294,6 +294,32 @@ If Riftbook helps you build faster or write cleaner code, please consider:
 
 ---
 
+## Special Thanks
+
+A huge thank you to the creators, developers, and maintainers of the repositories featured in Riftbook! Your open-source work is the foundation of the modern vibe coding and AI agent ecosystem.
+
+| Creator | Featured Project |
+|---|---|
+| [@pbakaus](https://github.com/pbakaus) | [Impeccable](https://github.com/pbakaus/impeccable) (AI Frontend Design Language) |
+| [@JuliusBrussee](https://github.com/JuliusBrussee) | [Caveman](https://github.com/JuliusBrussee/caveman) (Token Efficiency Formatter) |
+| [@rtk-ai](https://github.com/rtk-ai) | [RTK](https://github.com/rtk-ai/rtk) (CLI Output Token Compressor) |
+| [@safishamsi](https://github.com/safishamsi) | [Graphify](https://github.com/safishamsi/graphify) (Project Knowledge Graph builder) |
+| [@Leonxlnx](https://github.com/Leonxlnx) | [Taste Skill](https://github.com/Leonxlnx/taste-skill) (Frontend UI/UX design taste skill) |
+| [@mvanhorn](https://github.com/mvanhorn) | [Last30Days](https://github.com/mvanhorn/last30days-skill) (Recent-signal web search skill) |
+| [@tirth8205](https://github.com/tirth8205) | [Code Review Graph](https://github.com/tirth8205/code-review-graph) (PR Context & Blast Radius visualizer) |
+| [@alibaba](https://github.com/alibaba) | [Open Code Review](https://github.com/alibaba/open-code-review) (AI-powered automated code reviews) |
+| [@reviewdog](https://github.com/reviewdog) | [reviewdog](https://github.com/reviewdog/reviewdog) (Linter bridge for pull request reviews) |
+| [@oraios](https://github.com/oraios) | [Serena](https://github.com/oraios/serena) (IDE-like MCP Semantic Coding Toolkit) |
+| [@millionco](https://github.com/millionco) | [React Doctor](https://github.com/millionco/react-doctor) (React code auditing & quality gates) |
+| [@microsoft](https://github.com/microsoft) | [GraphRAG](https://github.com/microsoft/graphrag) & [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) |
+| [@hesreallyhim](https://github.com/hesreallyhim) | [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) index |
+| [@shanraisshan](https://github.com/shanraisshan) | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) |
+| [@imMamdouhaboammar](https://github.com/imMamdouhaboammar) | [Delegate Team](https://github.com/imMamdouhaboammar/delegate-team) (Agent Delegation Runtime) |
+| [@mamdouhaboammar](https://github.com/mamdouhaboammar) | [Chrome DevTools MCP](https://github.com/mamdouhaboammar/chrome-devtools-mcp) |
+| [@obra](https://github.com/obra) | [Superpowers](https://github.com/obra/superpowers) (Structured agent workflows) |
+
+---
+
 ## How to Contribute
 
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed rules on how to format your additions, follow templates, and submit pull requests.

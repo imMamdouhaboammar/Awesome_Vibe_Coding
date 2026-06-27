@@ -42,3 +42,9 @@ Requires a running Chrome instance with remote debugging enabled (usually on por
 
 ## Links
 - Official Repo: [https://github.com/mamdouhaboammar/chrome-devtools-mcp](https://github.com/mamdouhaboammar/chrome-devtools-mcp)
+
+---
+
+## Special Thanks
+
+Special thanks to [@mamdouhaboammar](https://github.com/mamdouhaboammar) for creating and maintaining the amazing [Chrome DevTools MCP](https://github.com/mamdouhaboammar) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

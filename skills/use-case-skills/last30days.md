@@ -307,3 +307,9 @@ Treat it as a recent-signal engine, not a truth engine.
 
 * GitHub: [https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
 * Runtime skill spec: [https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md)
+
+---
+
+## Special Thanks
+
+Special thanks to [@mvanhorn](https://github.com/mvanhorn) for creating and maintaining the amazing [Last30Days](https://github.com/mvanhorn) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

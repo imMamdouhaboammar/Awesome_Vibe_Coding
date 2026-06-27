@@ -369,3 +369,9 @@ Do not run every command blindly. Pick the command that matches the current UI p
 * Docs: [https://impeccable.style](https://impeccable.style)
 * Hooks docs: [https://impeccable.style/docs/hooks](https://impeccable.style/docs/hooks)
 * Detector docs: [https://impeccable.style/docs/detector](https://impeccable.style/docs/detector)
+
+---
+
+## Special Thanks
+
+Special thanks to [@pbakaus](https://github.com/pbakaus) for creating and maintaining the amazing [Impeccable](https://github.com/pbakaus) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

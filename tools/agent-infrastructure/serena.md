@@ -324,3 +324,9 @@ Do not treat Serena as magic. It gives better tools to the agent, but the agent 
 * GitHub: [oraios/serena](https://github.com/oraios/serena)
 * Documentation: [Serena Docs](https://oraios.github.io/serena/)
 * MCP Client Setup: [Connecting Your MCP Client](https://oraios.github.io/serena/02-usage/030_clients.html)
+
+---
+
+## Special Thanks
+
+Special thanks to [@oraios](https://github.com/oraios) for creating and maintaining the amazing [Serena](https://github.com/oraios) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

@@ -458,3 +458,9 @@ Before relying on Code Review Graph, check:
 * GitHub Action docs: [https://github.com/tirth8205/code-review-graph/blob/main/docs/GITHUB_ACTION.md](https://github.com/tirth8205/code-review-graph/blob/main/docs/GITHUB_ACTION.md)
 * Reproducing benchmarks: [https://github.com/tirth8205/code-review-graph/blob/main/docs/REPRODUCING.md](https://github.com/tirth8205/code-review-graph/blob/main/docs/REPRODUCING.md)
 * Custom languages: [https://github.com/tirth8205/code-review-graph/blob/main/docs/CUSTOM_LANGUAGES.md](https://github.com/tirth8205/code-review-graph/blob/main/docs/CUSTOM_LANGUAGES.md)
+
+---
+
+## Special Thanks
+
+Special thanks to [@tirth8205](https://github.com/tirth8205) for creating and maintaining the amazing [Code Review Graph](https://github.com/tirth8205) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

@@ -246,3 +246,9 @@ Before using Graphify output for coding decisions, check:
 
 * GitHub: [https://github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)
 * How it works: [https://github.com/safishamsi/graphify/blob/main/docs/how-it-works.md](https://github.com/safishamsi/graphify/blob/main/docs/how-it-works.md)
+
+---
+
+## Special Thanks
+
+Special thanks to [@safishamsi](https://github.com/safishamsi) for creating and maintaining the amazing [Graphify](https://github.com/safishamsi) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟

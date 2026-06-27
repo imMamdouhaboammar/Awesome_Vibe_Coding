@@ -155,3 +155,9 @@ Use it when correctness, structure, and repeatability matter more than raw speed
 
 * GitHub: [https://github.com/obra/superpowers](https://github.com/obra/superpowers)
 * Marketplace: [https://github.com/obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace)
+
+---
+
+## Special Thanks
+
+Special thanks to [@obra](https://github.com/obra) for creating and maintaining the amazing [Superpowers](https://github.com/obra) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟
