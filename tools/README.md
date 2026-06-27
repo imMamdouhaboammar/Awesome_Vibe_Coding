@@ -12,6 +12,7 @@ Every tool listed has a dedicated **Tool Card** detailing its use cases, install
 |---|---|---|---|---|
 | **RTK** | Token Efficiency | Premium Pick | Compact terminal output, cleaner context, long AI coding sessions, test-heavy workflows | [![View Card](../assets/icons/open-card.svg)](./token-efficiency/rtk.md) |
 | **Serena** | Agent Infrastructure | Top Selected | Semantic code retrieval, symbol-level editing, refactoring, large codebase navigation | [![View Card](../assets/icons/open-card.svg)](./agent-infrastructure/serena.md) |
+| **Delegate Team** | Agent Delegation Runtime | Advanced Tool | Controlled delegation from Claude Code to Codex, MiniMax, Gemini, OpenCode, VertexCoder, or team-style workflows | [![View Card](../assets/icons/open-card.svg)](./agent-infrastructure/delegate-team.md) |
 | **Code Review Graph** | Review Intelligence | Top Selected | PR review, blast-radius analysis, affected flows, token-efficient review context, CI review comments | [![View Card](../assets/icons/open-card.svg)](./review-intelligence/code-review-graph.md) |
 | **Open Code Review** | Review Intelligence | Top Selected | AI code review automation, precise line-level comments, branch reviews, full-file scans, CI review output | [![View Card](../assets/icons/open-card.svg)](./review-intelligence/open-code-review.md) |
 | **reviewdog** | Review Intelligence | Use Case Tool | CI feedback, linter PR comments, diff-filtered findings, GitHub Checks, annotations | [![View Card](../assets/icons/open-card.svg)](./review-intelligence/reviewdog.md) |

@@ -43,6 +43,7 @@ A growing field guide for learning how to actually work with AI coding agents.
 Built from real workflows, real mistakes, and real lessons — not from theory.
 
 > If you are using coding agents and still feel messy, slow, or unsure where to start, the playbook is for you.
+> Read our featured case study: [How I Use Claude Code and Delegate Team](./playbook/stories/01-how-i-use-claude-code-and-delegate-team.md).
 
 | Section | What is inside |
 |---|---|
@@ -158,6 +159,7 @@ Tools that make AI coding agents stronger inside real codebases.
 | Tool | Category | Why it matters | Card |
 |---|---|---|---|
 | **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/serena.md) |
+| **Delegate Team** | Agent Delegation Runtime | Lets Claude Code delegate focused tasks to Codex, MiniMax, Gemini, OpenCode, VertexCoder, or team workflows while keeping review and approval centralized | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/delegate-team.md) |
 
 ---
 

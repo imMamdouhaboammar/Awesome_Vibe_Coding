@@ -12,7 +12,7 @@ These are not success stories. They are field notes.
 
 | # | Story | What it is about |
 |---|---|---|
-| 1 | [How I Use Claude Code](./01-how-i-use-claude-code.md) | My personal workflow with Claude Code as a lead agent |
+| 1 | [How I Use Claude Code and Delegate Team](./01-how-i-use-claude-code-and-delegate-team.md) | My personal workflow using Claude Code as lead and Delegate Team as routing runtime |
 | 2 | [When I Should Have Used Codex](./02-when-i-should-have-used-codex.md) | A case where the wrong agent choice slowed everything down |
 | 3 | [A Project I Overcomplicated](./03-a-project-i-overcomplicated.md) | What happens when the system becomes the project |
 

@@ -40,9 +40,10 @@ Think of a real software team. There is a lead engineer who holds the full pictu
 
 Support engineers work on specific pieces. They do not need to know everything. They just need to understand their piece clearly.
 
-Your multi-agent setup works the same way.
+Your multi-agent setup works the same way:
 
-**One lead agent. The others support.**
+> Do not use multiple agents as a crowd.
+> Use one lead agent and let the rest act like specialists.
 
 The lead agent holds the project context. It carries the architectural memory. It makes the structural decisions. Support agents come in when you need deep code generation, a second opinion, or a different approach to a specific problem.
 
@@ -68,9 +69,37 @@ Choose based on what you need from a lead:
 
 For most projects — especially product builds, full-stack work, and anything that requires ongoing architectural judgment — **Claude Code is the strongest default lead.**
 
-![PRO TIP](../../playbook/assets/badges/pro-tip.svg)
+---
 
-> **My setup:** I use Claude Code as the lead agent — treating it like a staff engineer who sees the whole project. I use Codex for heavy implementation tasks, Minimax for creative or experimental alternatives, and Gemini when I want another reasoning angle. I also use a custom skill that helps Claude Code coordinate with other agents when needed, so it can delegate specific tasks without losing project context.
+## My real setup: Claude Code as the lead, Delegate Team as the gateway
+
+Instead of asking multiple agents to work randomly at the same time, I establish a clear controller hierarchy. I use **Claude Code** as the lead agent, acting like a staff engineer or lead architect. Claude Code retains the primary context, reads my files, and directs the tasks.
+
+To keep the workspace clean and avoid token waste, I give Claude Code access to [Delegate Team](https://github.com/imMamdouhaboammar/delegate-team) (`dt`). This local CLI and delegation runtime acts as a policy gateway, allowing the lead agent to dispatch specific, bounded tasks to specialized support backends (like Codex, MiniMax, Gemini, OpenCode, or VertexCoder) and team-style workflows.
+
+The human remains the final approval layer. The delegated output is treated as untrusted until reviewed.
+
+```txt
+Human
+  ↓ intent / approval
+Claude Code (Lead / Controller)
+  ↓ brief / review
+Delegate Team (`dt`)
+  ↓ controlled routing
+Codex / MiniMax / Gemini / OpenCode / VertexCoder / Team mode
+  ↓ result contract
+Claude Code review
+  ↓
+Human-approved commit
+```
+
+![AGENT MOVE](../../playbook/assets/badges/agent-move.svg)
+
+> **AGENT MOVE:** Do not use multiple agents as a crowd. Use one lead agent and let the rest act like specialists.
+
+![MY MISTAKE](../../playbook/assets/badges/my-mistake.svg)
+
+> **MY MISTAKE:** The mistake is not using many agents. The mistake is using many agents without a controller, review loop, and boundaries.
 
 ---
 
@@ -85,18 +114,110 @@ Support agents are not optional, but they are not always active. You bring them 
 
 **Do not run five agents in parallel without structure.** It feels productive and produces chaos. You end up with five different answers and no way to reconcile them.
 
-**The structure that works:**
+---
+
+## Delegate Team Runtime Commands
+
+When running with `delegate-team` (`dt`), use these CLI entries for management, validation, and execution:
+
+```bash
+# Check if dt is available
+dt --help
+
+# Check backend readiness
+dt check --strict
+
+# Focused task
+dt run "fix the auth bug and run the related tests"
+
+# Force a backend
+dt run "fix the auth bug and run the related tests" --backend codex
+
+# Large multi-module task
+dt run "plan and implement the billing module with tests" --team
+
+# Safer team workflow
+dt metagpt "plan and implement the billing module with tests" --workspace-only --no-install
+```
+
+---
+
+## When I delegate
+
+![TRY IT](../../playbook/assets/badges/try-it.svg)
+
+I delegate focused tasks to support backends via `dt` in these scenarios:
+- **When Claude Code is stuck** or repeating incorrect code patterns.
+- **When I want a second implementation angle** or alternative algorithmic approach.
+- **When the task is isolated enough** to brief clearly (e.g. self-contained helper functions, parser scripts).
+- **When the task can be reviewed easily** through a simple git diff.
+- **When the work can be verified** via automated test suites.
+- **When a support backend is better suited** for a specific sub-task (e.g., Codex for raw boilerplate generation).
+- **When I need a team-style split** using dynamic role mapping: Architect, Coder, UI Designer, and QA.
+
+---
+
+## When I do not delegate
+
+![RED FLAG](../../playbook/assets/badges/red-flag.svg)
+
+I avoid delegation and handle the code directly with the lead agent (or manually) when:
+- **When the task is vague** or needs active exploration/discovery.
+- **When I cannot review the output** easily due to its scale or complexity.
+- **When secrets, credentials, or private data** are involved in the context.
+- **When the change is too broad** and impacts multiple core modules simultaneously.
+- **When I need product judgment**, rather than raw code generation.
+- **When the repository has no tests** or verification rules to assert correctness.
+- **When the lead agent is already losing context** or drifting; adding more agents at this stage compounds the confusion.
+
+![DON'T BREAK](../../playbook/assets/badges/dont-break.svg)
+
+> **DON'T BREAK:** Never let delegated output write, install, commit, delete, or change auth/cloud settings without explicit approval.
+
+---
+
+## A good delegation brief
+
+A good brief prevents the support agent from making wrong assumptions. It must include:
+- **Goal:** What should change and why.
+- **Scope:** Target files or modules allowed to be changed.
+- **Do not touch:** Files/modules strictly forbidden from modification.
+- **Constraints:** Security, performance, style guidelines, or database schemas.
+- **Acceptance criteria:** Concrete states that must be true.
+- **Verification:** The exact tests/checks to run to verify success.
+- **Expected output format:** What the final code contract looks like.
+
+### Ready-to-use delegation prompt
+
+![COPY THIS](../../playbook/assets/badges/copy-this.svg)
 
 ```
-Lead agent → delegates or you manually route → Support agent
-Support agent output → reviewed → fed back to lead
+Use Delegate Team for this focused task.
+
+Goal:
+[what should change]
+
+Scope:
+[files/modules allowed]
+
+Do not touch:
+[files/modules forbidden]
+
+Constraints:
+[security/performance/style constraints]
+
+Acceptance criteria:
+[what must be true]
+
+Verification:
+[tests/checks to run]
+
+After delegation:
+1. Inspect the result contract.
+2. Review the actual diff.
+3. Run the relevant tests.
+4. Reject the result if it touches unrelated files or weakens security.
 ```
-
-That is it. One direction of flow. One source of truth.
-
-![BIG ISSUE](../../playbook/assets/badges/big-issue.svg)
-
-> **The biggest mistake with multi-agent setups:** Treating every agent as equal and giving all of them the same prompt. You get five responses with different assumptions baked in, and now reconciling them becomes the project. Pick a lead. Route through the lead.
 
 ---
 
@@ -115,10 +236,6 @@ Before a single line of code, answer these four questions:
 
 4. **What should never happen?**
    The non-negotiables. Things that, if broken, invalidate the whole product. Write these down. They become your quality gates.
-
-![MY MISTAKE](../../playbook/assets/badges/my-mistake.svg)
-
-> I used to skip question 4. I told myself it was obvious. It was not obvious to the agent. The agent has no way to know that "user data should never be visible to other users" is a hard constraint unless you say it explicitly. I learned this by finding a bug where exactly that happened.
 
 ---
 
@@ -174,26 +291,6 @@ The current task list. Updated as the project progresses. This is what the lead 
 
 Behavioral rules for the agent. Things it should always do, never do, and follow without asking.
 
-```markdown
-# Rules
-
-## Always
-- Write tests for any new logic
-- Use TypeScript strict mode
-
-## Never
-- Modify authentication logic without explicit instruction
-- Add new dependencies without explaining why
-
-## Format
-- Use named exports only
-- Max file length: 300 lines
-```
-
-![PRO TIP](../../playbook/assets/badges/pro-tip.svg)
-
-> Once these files exist, start every major session by telling the lead agent: "Read PRODUCT.md, TASKS.md, and RULES.md before we continue." This re-anchors the agent to the project state and prevents drift.
-
 ---
 
 ## Step 5: Build Your Default Stack
@@ -205,6 +302,7 @@ A strong default stack for most projects:
 | Role | Tool |
 |---|---|
 | Lead agent | Claude Code |
+| Delegation gateway | Delegate Team (`dt`) |
 | Code generation support | Codex |
 | Alternative reasoning | Gemini |
 | Experimental / creative | Minimax |
@@ -212,10 +310,6 @@ A strong default stack for most projects:
 | React quality gate | React Doctor |
 | Project graph | Graphify |
 | Semantic navigation | Serena |
-
-![DEFAULT STACK](../../playbook/assets/badges/default-stack.svg)
-
-> **Your default stack is not final.** It is your starting configuration. You will evolve it over time as you find what works for the types of projects you build. The point is to have a starting point that is not blank.
 
 ---
 
@@ -231,10 +325,6 @@ This is where most people make the last mistake: trying to build the whole proje
 4. **Validation** — does this slice work? Is it the right foundation?
 5. **Expand** — build the next piece on top of the validated foundation
 
-This is not cautious slow building. This is fast building that does not break itself.
-
-The projects that fail do so because the foundation was wrong and nobody caught it for three days of work. Starting with a first slice and validating it catches that problem in one hour.
-
 ---
 
 ## Step 7: Add Quality Gates Early
@@ -248,10 +338,6 @@ Add these before you have written significant code:
 - **reviewdog** — pipes linter output into reviewable annotations
 - **Impeccable** — if you are building any UI, gives the agent a design language to follow
 - **Serena** — for semantic navigation and refactoring as the codebase grows
-
-![AGENT MOVE](../../playbook/assets/badges/agent-move.svg)
-
-> **Tell the lead agent to use quality gates, not just build.** Something like: "After completing each feature, run React Doctor and summarize any issues before moving to the next task." This builds review into the rhythm instead of leaving it to the end.
 
 ---
 
@@ -267,57 +353,6 @@ Your lead agent is not infallible. There are clear signals that it is time to br
 - Proposes a solution that is far more complex than the problem warrants
 - Loses track of the file structure or starts creating files that already exist
 - Produces output that no longer matches the rules you set
-
-**When you switch:**
-- Do not just paste the whole conversation into a new agent
-- Give the new agent the context files (`PRODUCT.md`, `RULES.md`, `TASKS.md`)
-- Describe specifically what the lead got stuck on
-- Ask for an alternative approach — not the same approach
-
----
-
-## Try It
-
-![TRY IT](../../playbook/assets/badges/try-it.svg)
-
-Before your next project, do this:
-
-1. Write a one-sentence description of what you are building
-2. Write the four questions from Step 3 (what, for whom, done, never)
-3. Create a `RULES.md` with at least three rules
-4. Choose your lead agent
-5. Then — and only then — open the agent and start
-
-Notice how different the first session feels.
-
----
-
-## Copy This
-
-![COPY THIS](../../playbook/assets/badges/copy-this.svg)
-
-Use this prompt to start any new project with Claude Code as your lead:
-
-```
-I am starting a new project. Before we write any code, I want to set up the foundation.
-
-Here is the product description:
-[paste PRODUCT.md content]
-
-Here are the rules for this project:
-[paste RULES.md content]
-
-Here is the first task:
-[describe first task]
-
-Before starting the task:
-1. Confirm you have read and understood the product description
-2. Confirm you will follow the rules listed
-3. Ask any questions that would change how you approach the task
-4. Propose a brief architecture outline before writing code
-
-Do not start coding until I confirm the outline.
-```
 
 ---
 
