@@ -26,7 +26,7 @@ This is not a tool you install once.
 
 It is a reference system for understanding how Claude Code can be structured into repeatable development workflows.
 
-It belongs in Awesome Vibe Coding because it helps builders stop treating Claude Code like a chatbot and start treating it like an engineering environment made of reusable primitives: commands, agents, skills, hooks, memory, and workflows.
+It belongs in Riftbook because it helps builders stop treating Claude Code like a chatbot and start treating it like an engineering environment made of reusable primitives: commands, agents, skills, hooks, memory, and workflows.
 
 ## Best use cases
 

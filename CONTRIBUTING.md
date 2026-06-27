@@ -1,16 +1,39 @@
-# Contributing to Awesome Vibe Coding
+# Contributing to Riftbook
 
-Thank you for contributing! This repository is a curated handbook of high-utility tools, prompts, workflows, and skills for AI-assisted software development. To maintain a high signal-to-noise ratio, we enforce strict formatting and quality standards.
+Thank you for contributing! Riftbook is a curated, workflow-first field guide for AI-assisted builders. To maintain a high signal-to-noise ratio and ensure all resources are highly practical, we enforce strict formatting and quality standards.
+
+> [!IMPORTANT]
+> Riftbook is not a generic awesome-list clone. We do not accept plain links. Every resource, tool, or skill must contain detailed workflow context explaining exactly when, how, and why to use it.
 
 ---
 
 ## Contribution Rules
 
-1. **No Promotional Fluff**: Avoid marketing jargon, hype words (e.g., "revolutionary", "game-changing"), or affiliate links. Focus purely on technical capability and practicality.
-2. **Tested Resources Only**: Do not submit prompts you haven't run, tools you haven't used, or workflows you haven't executed yourself.
-3. **Use the Templates**: Every new entry must strictly follow its corresponding template under the [`/templates`](./templates/) directory.
-4. **Link Integrity**: Ensure all URLs are active, direct, and free of redirects or tracking parameters.
-5. **No Placeholders**: Avoid writing "TBD" or "TODO". Every section in a template must be filled with real content.
+1. **No Plain Links**: Do not submit plain links without workflow context. Every entry must detail how the resource fits into a developer's workflow.
+2. **No Promotional Fluff**: Avoid marketing jargon, hype words (e.g., "revolutionary", "game-changing"), or affiliate links. Focus purely on technical capability and practicality.
+3. **Tested Resources Only**: Do not submit prompts you haven't run, tools you haven't used, or workflows you haven't executed yourself.
+4. **Use the Templates**: Every new entry must strictly follow its corresponding template under the [`/templates`](./templates/) directory.
+5. **Link Integrity**: Ensure all URLs are active, direct, and free of redirects or tracking parameters.
+6. **No Placeholders**: Avoid writing "TBD" or "TODO". Every section in a template must be filled with real content.
+
+---
+
+## Required Card Schema
+
+Every new tool, skill, or resource entry submitted must include:
+
+*   **Name**: Clear and descriptive name of the resource.
+*   **Category**: Exact folder/file classification.
+*   **What it is**: A concise description of the resource.
+*   **Why it matters**: The value it brings to the developer.
+*   **When to use it**: The exact scenario or problem this solves.
+*   **How to use it**: Practical step-by-step instructions.
+*   **Commands**: CLI commands to run if applicable.
+*   **Agent Prompts**: Practical prompts to give the agent if useful.
+*   **Good fit for**: Scenarios where this tool/resource shines.
+*   **Not a good fit for**: Scenarios where this should be avoided.
+*   **Notes and limitations**: Edge cases, token usage, constraints, or known issues.
+*   **Official links**: Verified destination URLs.
 
 ---
 
@@ -42,7 +65,8 @@ Thank you for contributing! This repository is a curated handbook of high-utilit
 
 ## Writing Guidelines
 
-- **Keep it Concise**: Use bullet points and lists. Minimize long-form paragraphs.
-- **Provide Expected Outputs**: When adding prompts, always include a sample output or a link to a working example.
-- **Document Constraints**: Explicitly state limitations (e.g., "Only works with Claude 3.5 Sonnet", "High token usage").
-- **No Duplication**: Search the repo first to make sure the resource or prompt isn't already covered.
+*   **Keep it Concise**: Use bullet points and lists. Minimize long-form paragraphs.
+*   **Provide Expected Outputs**: When adding prompts, always include a sample output or a link to a working example.
+*   **Document Constraints**: Explicitly state limitations (e.g., "Only works with Claude 3.5 Sonnet", "High token usage").
+*   **No Duplication**: Search the repo first to make sure the resource or prompt isn't already covered.
+

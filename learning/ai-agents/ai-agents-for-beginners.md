@@ -24,7 +24,7 @@ Official repo:
 
 This repo is not a tool you install and use once.
 
-It is a structured learning resource for people who want to understand the concepts behind AI agents before building with them. That makes it useful inside Awesome Vibe Coding because better vibe coding is not only about tools and prompts. It is also about knowing what the agent is doing, where agents fail, and which design pattern fits the task.
+It is a structured learning resource for people who want to understand the concepts behind AI agents before building with them. That makes it useful inside Riftbook because better vibe coding is not only about tools and prompts. It is also about knowing what the agent is doing, where agents fail, and which design pattern fits the task.
 
 ## Best use cases
 

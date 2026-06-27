@@ -22,7 +22,7 @@ Official repo:
 
 ## Why it belongs here
 
-GraphRAG belongs in Awesome Vibe Coding because it represents a serious RAG architecture, not a simple prompt trick.
+GraphRAG belongs in Riftbook because it represents a serious RAG architecture, not a simple prompt trick.
 
 Most basic RAG systems retrieve chunks. That can work for narrow questions, but it often struggles when the question needs relationships, themes, entities, communities, summaries, or high-level reasoning across a large corpus.
 

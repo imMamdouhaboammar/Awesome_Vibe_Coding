@@ -46,7 +46,7 @@ Good for seeing how other builders structure commands, agents, hooks, and toolin
 
 Useful when you want to compare multiple resources before adding anything to your own setup.
 
-### 5. Sourcing future cards for Awesome Vibe Coding
+### 5. Sourcing future cards for Riftbook
 
 This can be used as a discovery source for new Tool Cards, Skill Cards, Hot Skills, Best Practice Guides, and Premium Picks.
 
@@ -82,7 +82,7 @@ This can be used as a discovery source for new Tool Cards, Skill Cards, Hot Skil
 
 The upstream README is currently being reorganized.
 
-Treat this repo as a discovery index, not as a polished course or final structured guide. When you find a useful item inside it, open the original resource, inspect its README, check maintenance signals, and decide whether it deserves a dedicated card in Awesome Vibe Coding.
+Treat this repo as a discovery index, not as a polished course or final structured guide. When you find a useful item inside it, open the original resource, inspect its README, check maintenance signals, and decide whether it deserves a dedicated card in Riftbook.
 
 ## Curation prompt
 
@@ -110,7 +110,7 @@ Your task:
    - What it is
    - Why it matters
    - Who should use it
-   - Whether it deserves a full card in Awesome Vibe Coding
+   - Whether it deserves a full card in Riftbook
 5. Ignore low-quality, duplicate, unclear, or unmaintained resources.
 6. Do not recommend everything.
 7. Prioritize practical tools that solve repeated workflow problems.
@@ -126,7 +126,7 @@ Output format:
 ## Usage prompt for finding new cards
 
 ```txt
-Use Awesome Claude Code to find 5 resources worth adding to Awesome Vibe Coding.
+Use Awesome Claude Code to find 5 resources worth adding to Riftbook.
 
 Selection rules:
 1. Pick only resources with a clear use case.
@@ -169,7 +169,7 @@ Before adding any resource discovered from this index, check:
 * The install steps are understandable
 * The resource is not abandoned
 * The resource is not just hype or a thin wrapper
-* The resource fits one of the existing Awesome Vibe Coding categories
+* The resource fits one of the existing Riftbook categories
 * The card includes limitations and when not to use it
 * The resource is tested or reviewed before being marked as Hot Skill or Premium Pick
 
@@ -177,7 +177,7 @@ Before adding any resource discovered from this index, check:
 
 Awesome Claude Code is best used as a source of leads.
 
-Do not copy its entire list into Awesome Vibe Coding. That would make your repo noisy. Use it to discover candidates, then create high-quality cards only for the resources that pass your own curation rules.
+Do not copy its entire list into Riftbook. That would make your repo noisy. Use it to discover candidates, then create high-quality cards only for the resources that pass your own curation rules.
 
 ## Links
 

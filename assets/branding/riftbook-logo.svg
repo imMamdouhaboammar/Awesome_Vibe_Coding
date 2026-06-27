@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" height="100%">
+  <defs>
+    <style>
+      .brand-text {
+        fill: #0B1120;
+        font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        letter-spacing: -0.02em;
+      }
+      .brand-subtext {
+        fill: #4B5563;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.2em;
+      }
+      .stroke-main {
+        stroke: #E2E8F0;
+      }
+      .page-bg {
+        fill: #0B1120;
+      }
+      .page-stroke {
+        stroke: #38BDF8;
+      }
+      .path-line {
+        stroke: #F59E0B;
+        stroke-width: 2;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      @media (prefers-color-scheme: dark) {
+        .brand-text {
+          fill: #F8FAFC;
+        }
+        .brand-subtext {
+          fill: #94A3B8;
+        }
+        .stroke-main {
+          stroke: #334155;
+        }
+        .page-bg {
+          fill: #0F172A;
+        }
+        .page-stroke {
+          stroke: #38BDF8;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Left: Riftbook Mark -->
+  <g transform="translate(0, 0)">
+    <!-- Outline container box with technical layout grid -->
+    <rect x="15" y="15" width="90" height="90" rx="20" fill="none" class="stroke-main" stroke-width="2" />
+    <line x1="60" y1="15" x2="60" y2="105" class="stroke-main" stroke-width="0.5" stroke-dasharray="2 2" />
+    <line x1="15" y1="60" x2="105" y2="60" class="stroke-main" stroke-width="0.5" stroke-dasharray="2 2" />
+
+    <!-- Book Pages -->
+    <path d="M 54,38 C 45,38 35,43 28,45 L 28,81 C 35,79 45,74 54,74 Z" class="page-bg page-stroke" stroke-width="2" stroke-linejoin="round" />
+    <path d="M 66,38 C 75,38 85,43 92,45 L 92,81 C 85,79 75,74 66,74 Z" class="page-bg page-stroke" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- Route Line -->
+    <path d="M 38,62 Q 50,56 60,60 T 82,58" class="path-line" />
+
+    <!-- Nodes -->
+    <circle cx="38" cy="62" r="3.5" fill="#38BDF8" />
+    <circle cx="60" cy="60" r="4.5" fill="#F59E0B" stroke="#0B1120" stroke-width="1.5" />
+    <circle cx="82" cy="58" r="3.5" fill="#10B981" />
+  </g>
+
+  <!-- Right: Brand Typography -->
+  <text x="130" y="62" class="brand-text">Riftbook</text>
+  <text x="132" y="86" class="brand-subtext">AWESOME VIBE CODING SPACE</text>
+
+  <!-- Technical Layout crosshair decoration on the right -->
+  <path d="M 550,45 L 570,45 M 560,35 L 560,55" fill="none" class="stroke-main" stroke-width="1.5" />
+  <circle cx="560" cy="45" r="5" fill="none" class="stroke-main" stroke-width="1.5" />
+</svg>

@@ -1,11 +1,15 @@
 <p align="center">
-  <img src="./assets/branding/awesome-vibe-coding-logo.svg" alt="Awesome Vibe Coding" width="480" />
+  <img src="./assets/branding/riftbook-logo.svg" alt="Riftbook" width="240" />
 </p>
 
-<h1 align="center">Awesome Vibe Coding</h1>
+<h1 align="center">Riftbook</h1>
 
 <p align="center">
-  <strong>A curated guide to tools, prompts, workflows, and systems for building better AI-assisted apps.</strong>
+  <strong>Awesome Vibe Coding Space</strong>
+</p>
+
+<p align="center">
+  A curated guide to tools, prompts, workflows, and systems for building better AI-assisted apps.
 </p>
 
 <p align="center">
@@ -14,63 +18,57 @@
 
 <p align="center">
   <a href="https://github.com/imMamdouhaboammar/Awesome_Vibe_Coding/stargazers">
-    <img src="https://img.shields.io/github/stars/imMamdouhaboammar/Awesome_Vibe_Coding?style=for-the-badge&color=2563EB" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/stars/imMamdouhaboammar/Awesome_Vibe_Coding?style=for-the-badge&label=Star" alt="GitHub stars" />
   </a>
-  <a href="https://github.com/imMamdouhaboammar/Awesome_Vibe_Coding/network/members">
-    <img src="https://img.shields.io/github/forks/imMamdouhaboammar/Awesome_Vibe_Coding?style=for-the-badge&color=4B5563" alt="GitHub forks" />
+  <a href="./tools/README.md">
+    <img src="https://img.shields.io/badge/Explore%20Tools-111827?style=for-the-badge" alt="Explore tools" />
+  </a>
+  <a href="./skills/README.md">
+    <img src="https://img.shields.io/badge/Explore%20Skills-3B82F6?style=for-the-badge" alt="Explore skills" />
   </a>
   <a href="./CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contribute-10B981?style=for-the-badge" alt="Contribute" />
   </a>
-  <a href="#browse-by-category">
-    <img src="https://img.shields.io/badge/Start%20Exploring-F59E0B?style=for-the-badge" alt="Start Exploring" />
-  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/imMamdouhaboammar/Awesome_Vibe_Coding/stargazers">⭐ Star this repo</a>
-  ·
-  <a href="https://github.com/imMamdouhaboammar/Awesome_Vibe_Coding">🔗 Share it</a>
-  ·
-  <a href="./CONTRIBUTING.md">🤝 Contribute</a>
-  ·
-  <a href="#start-here">📚 Start Here</a>
+  If Riftbook saves you time, helps you find a useful tool, or gives you a better workflow, consider starring the repo and sharing it with another builder.
 </p>
 
 ---
 
-## Introduction
-
-This repository is a structured, practical library of resources used while building applications using AI coding tools. It is designed to prevent repeated setup, minimize guesswork, and establish clear workflows for "vibe coding" (high-level, AI-assisted development). 
-
-This is not a list of random bookmark dumps or hype-driven links. Every entry is selected for utility, tested in real workflows, and formatted for rapid execution.
+> Formerly known as Awesome Vibe Coding. Renamed to Riftbook to make the repo feel less like a generic awesome list and more like a curated working space for AI-assisted builders.
 
 ---
 
-## Why star this repo?
+## Why Riftbook exists
 
-- **A Growing Library:** Access tested prompts, tools, workflows, and templates that make agentic development predictable.
-- **Time Saver:** Avoid rebuilding the same custom agent setups, configurations, and prompts from scratch.
-- **Support Builders:** Help other developers discover structured workflows instead of random AI bookmarks.
+AI-assisted coding is moving fast, but most resource lists still stop at links.
 
-### Support the repository
+Riftbook is built around a different idea:
 
-If you found something useful here:
-- ⭐ **Star this repository** to show your support.
-- 🔗 **Share it** with another builder or post it to your network.
-- 🤝 **Contribute** an improvement or suggest a new tool by opening a Pull Request.
+Every useful tool, skill, workflow, or framework should answer four questions:
+
+1. What is it?
+2. When should I use it?
+3. How do I use it inside a real workflow?
+4. What should I avoid?
+
+Riftbook does not just say: *"Here is a tool."*  
+It explains **when to use the tool, how to use it, and where it fits inside your workflow.** That is why entries in this repo are written as practical cards, not random bookmarks.
 
 ---
 
-## Premium Picks
+## Support Riftbook
 
-Handpicked tools and skills that solve a real workflow problem and are worth trying early.
+If this repo helps you save time or find a better workflow:
 
-| Pick | Category | Why it matters | Card |
-|---|---|---|---|
-| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/open-card.svg)](./skills/token-efficiency/caveman.md) |
-| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/open-card.svg)](./tools/token-efficiency/rtk.md) |
-| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
+- Star the repo
+- Share it with another AI-assisted builder
+- Suggest a tool, skill, or workflow
+- Open a PR with a practical card
+
+Riftbook gets better when builders contribute tools they have actually used.
 
 ---
 
@@ -84,33 +82,15 @@ The strongest curated skills in this repo. Start here when the workflow matters.
 
 ---
 
-## Agent Infrastructure
+## Premium Picks
 
-Tools that make AI coding agents stronger inside real codebases.
+Handpicked tools and skills that solve a real workflow problem and are worth trying early.
 
-| Tool | Category | Why it matters | Card |
+| Pick | Category | Why it matters | Card |
 |---|---|---|---|
-| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/serena.md) |
-
----
-
-## Review Intelligence
-
-Tools that make AI-assisted code review more structural and less diff-only.
-
-| Tool | Category | Why it matters | Card |
-|---|---|---|---|
-| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
-
----
-
-## React Quality Gates
-
-Tools for checking AI-written React before you trust it.
-
-| Tool | Use Case | Why it matters | Card |
-|---|---|---|---|
-| **React Doctor** | React quality audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
+| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/open-card.svg)](./skills/token-efficiency/caveman.md) |
+| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/open-card.svg)](./tools/token-efficiency/rtk.md) |
+| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
 
 ---
 
@@ -134,13 +114,33 @@ Specialized skills for specific workflow problems.
 
 ---
 
-## Hot Indexes
+## Review Intelligence
 
-High-signal discovery hubs for finding useful tools, skills, hooks, agents, commands, and workflow ideas.
+Tools that make AI-assisted code review more structural and less diff-only.
 
-| Index | Topic | Why it matters | Card |
+| Tool | Category | Why it matters | Card |
 |---|---|---|---|
-| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/open-card.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
+| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
+
+---
+
+## Agent Infrastructure
+
+Tools that make AI coding agents stronger inside real codebases.
+
+| Tool | Category | Why it matters | Card |
+|---|---|---|---|
+| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/serena.md) |
+
+---
+
+## React Quality Gates
+
+Tools for checking AI-written React before you trust it.
+
+| Tool | Use Case | Why it matters | Card |
+|---|---|---|---|
+| **React Doctor** | React quality audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
 
 ---
 
@@ -151,6 +151,36 @@ Architecture-level projects for people building serious AI-assisted systems.
 | Framework | Category | Why it matters | Card |
 |---|---|---|---|
 | Microsoft GraphRAG | RAG Infrastructure | Builds graph-based retrieval pipelines for reasoning over private or complex document collections | [![View Card](./assets/icons/open-card.svg)](./frameworks/rag/graphrag.md) |
+
+---
+
+## Hot Indexes
+
+High-signal discovery hubs for finding useful tools, skills, hooks, agents, commands, and workflow ideas.
+
+| Index | Topic | Why it matters | Card |
+|---|---|---|---|
+| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/open-card.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
+
+---
+
+## Best Practice Guides
+
+Reference resources for designing better AI-assisted workflows.
+
+| Guide | Topic | Why it matters | Card |
+|---|---|---|---|
+| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/open-card.svg)](./guides/claude-code/claude-code-best-practice.md) |
+
+---
+
+## Learning Paths
+
+Structured courses and study resources for people who want stronger fundamentals before building.
+
+| Resource | Topic | Why it matters | Card |
+|---|---|---|---|
+| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/open-card.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
 
 ---
 
@@ -190,26 +220,6 @@ Explore the complete index of curated resource directories:
 
 ---
 
-## Best Practice Guides
-
-Reference resources for designing better AI-assisted workflows.
-
-| Guide | Topic | Why it matters | Card |
-|---|---|---|---|
-| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/open-card.svg)](./guides/claude-code/claude-code-best-practice.md) |
-
----
-
-## Learning Paths
-
-Structured courses and study resources for people who want stronger fundamentals before building.
-
-| Resource | Topic | Why it matters | Card |
-|---|---|---|---|
-| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/open-card.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
-
----
-
 ## How to Use This Repo
 
 1. **Copy & Adapt:** Don't just read the resources. Copy prompts, templates, and skill files directly into your workspace configuration (e.g. your `.claudecoderc` or system instructions).
@@ -220,15 +230,17 @@ Structured courses and study resources for people who want stronger fundamentals
 
 ## Quality Rules
 
-Every item added to this repository must follow a strict schema:
+Every item added to Riftbook must follow a strict schema:
 1. **Name**: Clear and descriptive name.
 2. **Category**: Exact folder/file classification.
-3. **Use Case**: The precise problem this solves.
-4. **Why it is Useful**: Rationalization of its benefit.
-5. **How to Use**: Practical step-by-step instructions.
-6. **Example**: Real-world input and output where applicable.
-7. **Link**: Working target URL if referencing external tools.
-8. **Notes / Limitations**: Edge cases, known issues, or constraints.
+3. **What it is**: Concise description of what the item does.
+4. **Why it matters**: Explanation of its value and significance.
+5. **When to use**: The precise workflow phase or issue this addresses.
+6. **How to use**: Practical step-by-step instructions.
+7. **Commands / Prompts**: Executable code blocks and agent instructions.
+8. **Good fit for / Not a good fit for**: Demarcation of target use cases.
+9. **Notes & Limitations**: Constraining parameters, warnings, or gotchas.
+10. **Official Link**: Verified link to the target resource.
 
 ---
 
@@ -240,6 +252,15 @@ To maintain a high signal-to-noise ratio, this repository excludes:
 - Empty or generic prompt lists (e.g., "Act as a developer").
 - Broad advice lacking explicit use cases.
 - Outdated, broken, or unmaintained repositories.
+
+---
+
+## Support Riftbook (End)
+
+If Riftbook helps you build faster or write cleaner code, please consider:
+- ⭐ Starring this repository on GitHub.
+- 🔗 Sharing it with other AI-assisted builders.
+- 🤝 Contributing your own workflow-tested cards.
 
 ---
 
