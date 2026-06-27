@@ -1,6 +1,13 @@
 # When I Should Have Used Codex
 
-![STORY](../assets/badges/story.svg) ![MISTAKE LOG](https://img.shields.io/badge/MISTAKE%20LOG-111827?style=flat-square)
+![02 - When I Should Have Used Codex](../assets/lesson-heroes/02-when-i-should-have-used-codex.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 5 mins | Stories | Lesson 02, Lesson 03 | Claude Code, Codex |
+
+### Active Signals in this Lesson
+- ![STORY](../assets/badges/story.svg) · ![WHEN TO SWITCH](../assets/badges/when-to-switch.svg)
 
 ---
 
@@ -43,6 +50,8 @@ The lead does not have to do everything. The job of the lead is to hold the proj
 ---
 
 ## Lesson Learned
+
+![WHEN TO SWITCH](../assets/badges/when-to-switch.svg)
 
 Match the task to the agent's strength.
 

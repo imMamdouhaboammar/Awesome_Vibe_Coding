@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/section-headers/paths.svg" alt="Paths Section Header" width="100%" />
+</p>
+
 # Paths
 
 **Not everyone starts from the same place. Find yours.**

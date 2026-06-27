@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/section-headers/stories.svg" alt="Stories Section Header" width="100%" />
+</p>
+
 # Stories
 
 **Real examples are easier to remember than abstract advice.**

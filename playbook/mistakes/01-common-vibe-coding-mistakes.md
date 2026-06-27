@@ -1,6 +1,13 @@
 # Common Vibe Coding Mistakes
 
-![MISTAKE LOG](https://img.shields.io/badge/MISTAKE%20LOG-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-EF4444?style=flat-square)
+![01 - Common Vibe Coding Mistakes](../assets/lesson-heroes/01-common-vibe-coding-mistakes.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Beginner | 7 mins | Mistakes | None | Claude Code, Cursor |
+
+### Active Signals in this Lesson
+- ![RED FLAG](../assets/badges/red-flag.svg) · ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg)
 
 ---
 

@@ -1,6 +1,13 @@
 # Reviewing Agent Output
 
-![WORKFLOW](https://img.shields.io/badge/WORKFLOW-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-10B981?style=flat-square)
+![04 - Reviewing Agent Output](../assets/lesson-heroes/04-reviewing-agent-output.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 5 mins | Core Workflows | None | Claude Code, Open Code Review, reviewdog, React Doctor, Impeccable |
+
+### Active Signals in this Lesson
+- ![DO THIS FIRST](../assets/badges/do-this-first.svg)
 
 ---
 
@@ -27,6 +34,8 @@ The question is not "does this code run?" The question is:
 ---
 
 ## The Review Workflow
+
+![DO THIS FIRST](../assets/badges/do-this-first.svg)
 
 After every significant task:
 

@@ -1,6 +1,13 @@
 # Shipping with Confidence
 
-![WORKFLOW](https://img.shields.io/badge/WORKFLOW-111827?style=flat-square) ![SHIP CHECK](https://img.shields.io/badge/SHIP%20CHECK-4ADE80?style=flat-square)
+![05 - Shipping with Confidence](../assets/lesson-heroes/05-shipping-with-confidence.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 5 mins | Core Workflows | None | Claude Code |
+
+### Active Signals in this Lesson
+- ![SHIP CHECK](../assets/badges/ship-check.svg)
 
 ---
 

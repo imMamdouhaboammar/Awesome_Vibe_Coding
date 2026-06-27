@@ -1,6 +1,13 @@
 # Working with Multiple Agents Without Creating Chaos
 
-![INTERMEDIATE](https://img.shields.io/badge/INTERMEDIATE-111827?style=flat-square) ![WORKFLOW](https://img.shields.io/badge/WORKFLOW-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-10B981?style=flat-square)
+![02 - Working with Multiple Agents](../assets/lesson-heroes/02-working-with-multiple-agents.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 8 mins | Core Workflows | Lesson 02 | Claude Code, Delegate Team |
+
+### Active Signals in this Lesson
+- ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg) · ![TRY IT](../assets/badges/try-it.svg)
 
 ---
 

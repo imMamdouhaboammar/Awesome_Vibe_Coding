@@ -1,6 +1,6 @@
 # Solo Builder Path
 
-![SOLO BUILDER](https://img.shields.io/badge/SOLO%20BUILDER-111827?style=flat-square) ![PRACTICAL](https://img.shields.io/badge/PRACTICAL-3B82F6?style=flat-square)
+**Path Profile:** Solo Builder | **Length:** 11 Lessons
 
 ---
 

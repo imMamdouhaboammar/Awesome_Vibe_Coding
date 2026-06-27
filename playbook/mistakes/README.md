@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/section-headers/mistakes.svg" alt="Common Mistakes Section Header" width="100%" />
+</p>
+
 # Mistakes
 
 **The most honest section in the playbook.**

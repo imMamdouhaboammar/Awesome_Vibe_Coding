@@ -1,6 +1,13 @@
 # Planning the Build
 
-![WORKFLOW](https://img.shields.io/badge/WORKFLOW-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-10B981?style=flat-square)
+![01 - Planning the Build](../assets/lesson-heroes/01-planning-the-build.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 5 mins | Core Workflows | Lesson 00, Lesson 01 | Claude Code |
+
+### Active Signals in this Lesson
+- ![AGENT MOVE](../assets/badges/agent-move.svg) · ![COPY THIS](../assets/badges/copy-this.svg)
 
 ---
 
@@ -34,7 +41,7 @@ Before writing any code for a feature or project, establish:
 
 ## The Outline-First Technique
 
-![AGENT MOVE](../assets/badges/agent-move.svg)
+![AGENT MOVE](../assets/badges/agent-move.svg) · ![COPY THIS](../assets/badges/copy-this.svg)
 
 Before any significant task, use this prompt:
 

@@ -1,6 +1,6 @@
 # Agency Operator Path
 
-![AGENCY OPERATOR](https://img.shields.io/badge/AGENCY%20OPERATOR-111827?style=flat-square) ![ADVANCED](https://img.shields.io/badge/ADVANCED-F97316?style=flat-square)
+**Path Profile:** Agency Operator | **Length:** 11 Lessons
 
 ---
 

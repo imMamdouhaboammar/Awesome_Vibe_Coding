@@ -1,6 +1,13 @@
 # A Project I Overcomplicated
 
-![STORY](../assets/badges/story.svg) ![MY MISTAKE](../assets/badges/my-mistake.svg)
+![03 - A Project I Overcomplicated](../assets/lesson-heroes/03-a-project-i-overcomplicated.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 5 mins | Stories | None | Claude Code |
+
+### Active Signals in this Lesson
+- ![STORY](../assets/badges/story.svg) · ![BIG ISSUE](../assets/badges/big-issue.svg)
 
 ---
 
@@ -41,6 +48,8 @@ Every day spent on infrastructure that was not yet needed was a day the dashboar
 ---
 
 ## Lesson Learned
+
+![BIG ISSUE](../assets/badges/big-issue.svg)
 
 Build the thing that has value first. Build the infrastructure only when the thing that has value is complex enough to need it.
 

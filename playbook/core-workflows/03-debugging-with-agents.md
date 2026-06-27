@@ -1,6 +1,13 @@
 # Debugging with Agents
 
-![WORKFLOW](https://img.shields.io/badge/WORKFLOW-111827?style=flat-square) ![PRACTICAL](https://img.shields.io/badge/PRACTICAL-3B82F6?style=flat-square)
+![03 - Debugging with Agents](../assets/lesson-heroes/03-debugging-with-agents.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 5 mins | Core Workflows | None | Claude Code |
+
+### Active Signals in this Lesson
+- ![COPY THIS](../assets/badges/copy-this.svg)
 
 ---
 

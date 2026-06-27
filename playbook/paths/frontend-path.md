@@ -1,6 +1,6 @@
 # Frontend Path
 
-![FRONTEND](https://img.shields.io/badge/FRONTEND-111827?style=flat-square) ![UI FOCUSED](https://img.shields.io/badge/UI%20FOCUSED-818CF8?style=flat-square)
+**Path Profile:** Frontend Focus | **Length:** 8 Lessons
 
 ---
 

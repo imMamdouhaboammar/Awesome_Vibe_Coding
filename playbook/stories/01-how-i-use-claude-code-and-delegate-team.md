@@ -1,6 +1,13 @@
 # How I Use Claude Code and Delegate Team
 
-![STORY](../assets/badges/story.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
+![01 - How I Use Claude Code & DT](../assets/lesson-heroes/01-how-i-use-claude-code-and-delegate-team.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Advanced | 6 mins | Stories | Lesson 02 | Claude Code, Delegate Team |
+
+### Active Signals in this Lesson
+- ![STORY](../assets/badges/story.svg) · ![QUICK WIN](../assets/badges/quick-win.svg)
 
 ---
 
@@ -69,6 +76,8 @@ It is easy to look at a system like this and think it is completely automated. I
 ---
 
 ## What I Would Tell a New Vibe Coder
+
+![QUICK WIN](../assets/badges/quick-win.svg)
 
 If you are starting out with multiple agents, do not overcomplicate your setup too early. 
 

@@ -1,6 +1,6 @@
 # Product-Minded Path
 
-![PRODUCT MINDED](https://img.shields.io/badge/PRODUCT%20MINDED-111827?style=flat-square) ![STRATEGIC](https://img.shields.io/badge/STRATEGIC-10B981?style=flat-square)
+**Path Profile:** Product-Minded Focus | **Length:** 8 Lessons
 
 ---
 

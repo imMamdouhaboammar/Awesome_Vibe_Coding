@@ -1,6 +1,6 @@
 # Beginner Path
 
-![BEGINNER](https://img.shields.io/badge/BEGINNER-111827?style=flat-square) ![6 LESSONS](https://img.shields.io/badge/6%20LESSONS-3B82F6?style=flat-square)
+**Path Profile:** Beginner | **Length:** 6 Lessons
 
 ---
 

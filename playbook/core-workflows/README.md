@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/section-headers/core-workflows.svg" alt="Core Workflows Section Header" width="100%" />
+</p>
+
 # Core Workflows
 
 **The real day-to-day routines of working with coding agents.**

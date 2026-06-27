@@ -1,6 +1,13 @@
 # Things That Look Smart But Hurt
 
-![RED FLAG](../assets/badges/red-flag.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
+![03 - Things That Look Smart But Hurt](../assets/lesson-heroes/03-things-that-look-smart-but-hurt.svg)
+
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Intermediate | 6 mins | Mistakes | None | Claude Code, Codex, Gemini |
+
+### Active Signals in this Lesson
+- ![RED FLAG](../assets/badges/red-flag.svg) · ![PRO TIP](../assets/badges/pro-tip.svg)
 
 ---
 
@@ -10,11 +17,15 @@ These are the moves that feel productive, look sophisticated, and consistently c
 
 ## Running all agents simultaneously "for more options"
 
+![RED FLAG](../assets/badges/red-flag.svg)
+
 **What it looks like:** Opening Claude Code, Codex, and Gemini with the same prompt to compare their approaches before picking the best one.
 
 **Why it feels smart:** More perspectives, better chance of finding the right approach.
 
 **Why it hurts:** Each agent makes assumptions about architecture, structure, and conventions. When you pick one approach, the assumptions it carries conflict with the assumptions in other parts of the codebase. The "best option" comparison turns into a hidden compatibility audit.
+
+![PRO TIP](../assets/badges/pro-tip.svg)
 
 **Better move:** Pick a lead. Use it. Bring in support agents for specific sub-tasks, not for parallel architecture proposals.
 
@@ -22,11 +33,15 @@ These are the moves that feel productive, look sophisticated, and consistently c
 
 ## Asking the agent to "do its best" without a spec
 
+![RED FLAG](../assets/badges/red-flag.svg)
+
 **What it looks like:** "Here is the goal, build it however you think is best."
 
 **Why it feels smart:** You trust the agent. You want to see what it comes up with.
 
 **Why it hurts:** "Its best" is not defined by your project's constraints — it is defined by patterns in its training. You will get something technically reasonable that does not match your actual needs. Correcting it takes longer than specifying it upfront.
+
+![PRO TIP](../assets/badges/pro-tip.svg)
 
 **Better move:** Write a one-paragraph spec first. Even a rough one. The agent's output will be much closer to what you actually want.
 
