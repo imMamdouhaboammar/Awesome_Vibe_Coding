@@ -10,16 +10,16 @@ Every skill listed has a dedicated **Skill Card** detailing its purpose, inputs,
 
 | Skill | Category | Tier | Best For | Card |
 |---|---|---|---|---|
-| **Caveman** | Token Efficiency | Premium Pick | Shorter agent replies, token savings, PR reviews, commit messages, memory compression | [![View Card](../assets/icons/eye-box.svg)](./token-efficiency/caveman.md) |
-| **Graphify** | Project Intelligence | Premium Pick | Codebase maps, knowledge graphs, architecture context, refactors, debugging | [![View Card](../assets/icons/eye-box.svg)](./project-intelligence/graphify.md) |
-| **Taste Skill** | Frontend Design | Hot Skill | Anti-slop UI, frontend polish, redesigns, image-to-code workflows | [![View Card](../assets/icons/eye-box.svg)](./hot-skills/taste-skill.md) |
-| **Impeccable** | AI Frontend Design | Top Selected | Design guidance, frontend quality, UI audit, polish, layout, typography, detector checks | [![View Card](../assets/icons/eye-box.svg)](./top-selected/impeccable.md) |
-| **Last30Days** | Research | Use Case Skill | Recent-signal research, meeting prep, competitor research, product validation, trend tracking | [![View Card](../assets/icons/eye-box.svg)](./use-case-skills/last30days.md) |
-| **UI UX Pro Max** | UI/UX | Standard | Design systems, landing pages, dashboards, app UI, frontend polish | [![View Card](../assets/icons/eye-box.svg)](./ui-ux/ui-ux-pro-max.md) |
-| **Clean Code Audit** | Coding | Standard | Auditing code changes for DRY, SOLID, and readability before committing | [![View Card](../assets/icons/eye-box.svg)](./coding/) |
-| **Competitor Matrix** | Marketing | Standard | Compares product features against main competitors | [![View Card](../assets/icons/eye-box.svg)](./marketing/) |
-| **Fact Checker** | Content | Standard | Verifies technical API names and links in docs | [![View Card](../assets/icons/eye-box.svg)](./content/) |
-| **Codebase Mapping** | AI Agents | Standard | Traverses repository to build module dependency map | [![View Card](../assets/icons/eye-box.svg)](./ai-agents/) |
+| **Caveman** | Token Efficiency | Premium Pick | Shorter agent replies, token savings, PR reviews, commit messages, memory compression | [![View Card](../assets/icons/open-card.svg)](./token-efficiency/caveman.md) |
+| **Graphify** | Project Intelligence | Premium Pick | Codebase maps, knowledge graphs, architecture context, refactors, debugging | [![View Card](../assets/icons/open-card.svg)](./project-intelligence/graphify.md) |
+| **Taste Skill** | Frontend Design | Hot Skill | Anti-slop UI, frontend polish, redesigns, image-to-code workflows | [![View Card](../assets/icons/open-card.svg)](./hot-skills/taste-skill.md) |
+| **Impeccable** | AI Frontend Design | Top Selected | Design guidance, frontend quality, UI audit, polish, layout, typography, detector checks | [![View Card](../assets/icons/open-card.svg)](./top-selected/impeccable.md) |
+| **Last30Days** | Research | Use Case Skill | Recent-signal research, meeting prep, competitor research, product validation, trend tracking | [![View Card](../assets/icons/open-card.svg)](./use-case-skills/last30days.md) |
+| **UI UX Pro Max** | UI/UX | Standard | Design systems, landing pages, dashboards, app UI, frontend polish | [![View Card](../assets/icons/open-card.svg)](./ui-ux/ui-ux-pro-max.md) |
+| **Clean Code Audit** | Coding | Standard | Auditing code changes for DRY, SOLID, and readability before committing | [![View Card](../assets/icons/open-card.svg)](./coding/) |
+| **Competitor Matrix** | Marketing | Standard | Compares product features against main competitors | [![View Card](../assets/icons/open-card.svg)](./marketing/) |
+| **Fact Checker** | Content | Standard | Verifies technical API names and links in docs | [![View Card](../assets/icons/open-card.svg)](./content/) |
+| **Codebase Mapping** | AI Agents | Standard | Traverses repository to build module dependency map | [![View Card](../assets/icons/open-card.svg)](./ai-agents/) |
 
 ---
 

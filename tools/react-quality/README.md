@@ -8,4 +8,4 @@ Use this section when the React UI works visually, but you still need to check s
 
 | Tool | Focus | Target Environments | Card |
 |---|---|---|---|
-| React Doctor | Auditing AI-written React, state/effects issues, performance checks, accessibility, CI PR review | Python, JS, CLI, MCP, CI (Vite, Next.js, TanStack, Expo, React Native) | [![View Card](../../assets/icons/eye-box.svg)](./react-doctor.md) |
+| React Doctor | Auditing AI-written React, state/effects issues, performance checks, accessibility, CI PR review | Python, JS, CLI, MCP, CI (Vite, Next.js, TanStack, Expo, React Native) | [![View Card](../../assets/icons/open-card.svg)](./react-doctor.md) |

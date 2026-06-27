@@ -1,6 +1,6 @@
-<svg width="204" height="32" viewBox="0 0 204 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agent Infrastructure">
-  <rect width="204" height="32" rx="16" fill="#0B1120"/>
-  <rect x="1" y="1" width="202" height="30" rx="15" stroke="#14B8A6" stroke-width="2"/>
+<svg width="248" height="32" viewBox="0 0 248 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agent Infrastructure">
+  <rect width="248" height="32" rx="16" fill="#0B1120"/>
+  <rect x="1" y="1" width="246" height="30" rx="15" stroke="#14B8A6" stroke-width="2"/>
   <rect x="15" y="9" width="18" height="14" rx="3" fill="#14B8A6"/>
   <path d="M19 13H29" stroke="#0B1120" stroke-width="1.6" stroke-linecap="round"/>
   <path d="M19 17H25" stroke="#0B1120" stroke-width="1.6" stroke-linecap="round"/>

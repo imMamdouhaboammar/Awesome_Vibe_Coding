@@ -8,4 +8,4 @@ These indexes are useful because they help discover multiple practical resources
 
 | Index | Topic | Focus | Card |
 |---|---|---|---|
-| Awesome Claude Code | Claude Code Ecosystem | Curated index of skills, agents, hooks, slash commands, orchestrators, apps, plugins, and developer tooling | [![View Card](../../assets/icons/eye-box.svg)](./awesome-claude-code.md) |
+| Awesome Claude Code | Claude Code Ecosystem | Curated index of skills, agents, hooks, slash commands, orchestrators, apps, plugins, and developer tooling | [![View Card](../../assets/icons/open-card.svg)](./awesome-claude-code.md) |

@@ -8,7 +8,7 @@ Use this section for resource maps that help you discover tools, skills, hooks, 
 
 | Index | Topic | Focus | Card |
 |---|---|---|---|
-| Awesome Claude Code | Claude Code Ecosystem | Curated index of skills, agents, hooks, slash commands, orchestrators, apps, plugins, and developer tooling | [![View Card](../assets/icons/eye-box.svg)](./hot-indexes/awesome-claude-code.md) |
+| Awesome Claude Code | Claude Code Ecosystem | Curated index of skills, agents, hooks, slash commands, orchestrators, apps, plugins, and developer tooling | [![View Card](../assets/icons/open-card.svg)](./hot-indexes/awesome-claude-code.md) |
 
 ## Categories
 

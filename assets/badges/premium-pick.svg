@@ -1,8 +1,8 @@
-<svg width="168" height="32" viewBox="0 0 168 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Premium Pick">
-  <rect width="168" height="32" rx="16" fill="#111827"/>
-  <rect x="1" y="1" width="166" height="30" rx="15" stroke="#F59E0B" stroke-width="2"/>
+<svg width="164" height="32" viewBox="0 0 164 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Premium Pick">
+  <rect width="164" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="162" height="30" rx="15" stroke="#F59E0B" stroke-width="2"/>
   <path d="M23 8L26.1 13.4L32 14.6L27.9 19.1L28.6 25L23 22.5L17.4 25L18.1 19.1L14 14.6L19.9 13.4L23 8Z" fill="#F59E0B"/>
-  <text x="42" y="21" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.4">
+  <text x="44" y="21" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.4">
     PREMIUM PICK
   </text>
 </svg>

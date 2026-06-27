@@ -8,4 +8,4 @@ These are not random links. Each skill here solves a repeated, expensive workflo
 
 | Skill | Focus | Card |
 |---|---|---|
-| Impeccable | Design guidance system for AI coding agents | [![View Card](../../assets/icons/eye-box.svg)](./impeccable.md) |
+| Impeccable | Design guidance system for AI coding agents | [![View Card](../../assets/icons/open-card.svg)](./impeccable.md) |

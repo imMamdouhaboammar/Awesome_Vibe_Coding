@@ -68,9 +68,9 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 
 | Pick | Category | Why it matters | Card |
 |---|---|---|---|
-| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/eye-box.svg)](./skills/token-efficiency/caveman.md) |
-| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/eye-box.svg)](./tools/token-efficiency/rtk.md) |
-| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/eye-box.svg)](./skills/project-intelligence/graphify.md) |
+| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/open-card.svg)](./skills/token-efficiency/caveman.md) |
+| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/open-card.svg)](./tools/token-efficiency/rtk.md) |
+| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
 
 ---
 
@@ -80,7 +80,7 @@ The strongest curated skills in this repo. Start here when the workflow matters.
 
 | Skill | Category | Why it matters | Card |
 |---|---|---|---|
-| **Impeccable** | AI Frontend Design | Gives AI coding agents a practical design language with commands for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/eye-box.svg)](./skills/top-selected/impeccable.md) |
+| **Impeccable** | AI Frontend Design | Gives AI coding agents a practical design language with commands for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/open-card.svg)](./skills/top-selected/impeccable.md) |
 
 ---
 
@@ -90,7 +90,7 @@ Tools that make AI coding agents stronger inside real codebases.
 
 | Tool | Category | Why it matters | Card |
 |---|---|---|---|
-| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/eye-box.svg)](./tools/agent-infrastructure/serena.md) |
+| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/serena.md) |
 
 ---
 
@@ -100,7 +100,7 @@ Tools that make AI-assisted code review more structural and less diff-only.
 
 | Tool | Category | Why it matters | Card |
 |---|---|---|---|
-| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/eye-box.svg)](./tools/review-intelligence/code-review-graph.md) |
+| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
 
 ---
 
@@ -110,7 +110,7 @@ Tools for checking AI-written React before you trust it.
 
 | Tool | Use Case | Why it matters | Card |
 |---|---|---|---|
-| **React Doctor** | React quality audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/eye-box.svg)](./tools/react-quality/react-doctor.md) |
+| **React Doctor** | React quality audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
 
 ---
 
@@ -120,7 +120,7 @@ Field-tested skills that improve AI agent output in real workflows.
 
 | Skill | Category | Why it matters | Card |
 |---|---|---|---|
-| **Taste Skill** | Frontend Design | Gives AI coding agents stronger UI taste and helps avoid generic frontend output | [![View Card](./assets/icons/eye-box.svg)](./skills/hot-skills/taste-skill.md) |
+| **Taste Skill** | Frontend Design | Gives AI coding agents stronger UI taste and helps avoid generic frontend output | [![View Card](./assets/icons/open-card.svg)](./skills/hot-skills/taste-skill.md) |
 
 ---
 
@@ -130,7 +130,7 @@ Specialized skills for specific workflow problems.
 
 | Skill | Use Case | Why it matters | Card |
 |---|---|---|---|
-| **Last30Days** | Recent-signal research | Searches recent social, developer, market, GitHub, and web signals before meetings, research, validation, or comparisons | [![View Card](./assets/icons/eye-box.svg)](./skills/use-case-skills/last30days.md) |
+| **Last30Days** | Recent-signal research | Searches recent social, developer, market, GitHub, and web signals before meetings, research, validation, or comparisons | [![View Card](./assets/icons/open-card.svg)](./skills/use-case-skills/last30days.md) |
 
 ---
 
@@ -140,7 +140,7 @@ High-signal discovery hubs for finding useful tools, skills, hooks, agents, comm
 
 | Index | Topic | Why it matters | Card |
 |---|---|---|---|
-| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/eye-box.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
+| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/open-card.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
 
 ---
 
@@ -150,7 +150,7 @@ Architecture-level projects for people building serious AI-assisted systems.
 
 | Framework | Category | Why it matters | Card |
 |---|---|---|---|
-| Microsoft GraphRAG | RAG Infrastructure | Builds graph-based retrieval pipelines for reasoning over private or complex document collections | [Open card](./frameworks/rag/graphrag.md) |
+| Microsoft GraphRAG | RAG Infrastructure | Builds graph-based retrieval pipelines for reasoning over private or complex document collections | [![View Card](./assets/icons/open-card.svg)](./frameworks/rag/graphrag.md) |
 
 ---
 
@@ -196,7 +196,7 @@ Reference resources for designing better AI-assisted workflows.
 
 | Guide | Topic | Why it matters | Card |
 |---|---|---|---|
-| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/eye-box.svg)](./guides/claude-code/claude-code-best-practice.md) |
+| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/open-card.svg)](./guides/claude-code/claude-code-best-practice.md) |
 
 ---
 
@@ -206,7 +206,7 @@ Structured courses and study resources for people who want stronger fundamentals
 
 | Resource | Topic | Why it matters | Card |
 |---|---|---|---|
-| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/eye-box.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
+| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/open-card.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
 
 ---
 

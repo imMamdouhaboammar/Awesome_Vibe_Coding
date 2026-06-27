@@ -8,4 +8,4 @@ Use this section for tools that map blast radius, affected flows, test gaps, PR 
 
 | Tool | Focus | Target Environments | Card |
 |---|---|---|---|
-| Code Review Graph | PR review, blast-radius analysis, affected flows, token-efficient review context, CI review comments | Python 3.10+, CLI, MCP, GitHub Actions | [![View Card](../../assets/icons/eye-box.svg)](./code-review-graph.md) |
+| Code Review Graph | PR review, blast-radius analysis, affected flows, token-efficient review context, CI review comments | Python 3.10+, CLI, MCP, GitHub Actions | [![View Card](../../assets/icons/open-card.svg)](./code-review-graph.md) |

@@ -6,4 +6,4 @@ Frameworks and systems for Retrieval-Augmented Generation, knowledge retrieval, 
 
 | Framework | Focus | Card |
 |---|---|---|
-| Microsoft GraphRAG | Graph-based Retrieval-Augmented Generation | [Open card](./graphrag.md) |
+| Microsoft GraphRAG | Graph-based Retrieval-Augmented Generation | [![View Card](../../assets/icons/open-card.svg)](./graphrag.md) |
